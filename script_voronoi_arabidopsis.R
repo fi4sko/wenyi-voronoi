@@ -488,8 +488,49 @@ for( i in 1:nrow(tmp)){
 
 vtm2[["colors"]] = tmp3
 
+# significance
+
+tmp4 = tmp
+tmp4[] = 1
+
+for( i in 1:nrow(tmp)){
+  for(j in 1:ncol(tmp)){
+    tmp4[i,j] = wilcox.test(Y[O2[[rownames(vtm2)[i]]],j],Y[O2[[rownames(vtm2)[i]]],])$p.value
+  }
+}
+
+vtm2[["significance"]] = tmp4
 
 
 
+
+# assign colors to the top layer
+tmp_top = as.vector(vtm2[["nodeId"]])[as.vector(vtm2[["hierarchyLevel"]]) == 2]
+vtm2_top = vtm2[tmp_top,]
+
+# identify the bottom layer
+tmp_last = which(vtm2[["nodeId"]] %in% vtm2[["parentID"]] == F)
+vtm2_last = vtm2[tmp_last,]
+
+
+##################################
+## Plot
+
+pdf(paste("Figure X2 (Voronoi comparison 1).pdf",sep=""), 10,10, pointsize=12)
+par(xpd=T)
+root = matrix(c(0,1,1,0,0,0,1,1),ncol=2)*1000
+plot(root, type="n", axes=F, xlab="", ylab="", main="Time specificity")
+
+apply(vtm2_last, 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T), col=x['colors.1'],border="light grey" ))
+apply(vtm2[as.vector(vtm2[["hierarchyLevel"]]) == 3,], 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T),lwd=1,border="dark grey" ))
+apply(vtm2[as.vector(vtm2[["hierarchyLevel"]]) == 2,], 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T),lwd=2,border="gray50"))
+
+coverU = vtm2_last[,"comparisons"][,1] > 0 & vtm2_last[,"significance"][,1] < 0.05
+coverD = vtm2_last[,"comparisons"][,1] < 0 & vtm2_last[,"significance"][,1] < 0.05
+text(vtm2[coverU,6:7], vtm2[coverU,"shortname"], cex=vtm2[coverU,"weightcex"], col="firebrick4")
+text(vtm2[coverD,6:7], vtm2[coverD,"shortname"], cex=vtm2[coverD,"weightcex"], col="dodgerblue4")
+
+text(vtm2_top[6:7], vtm2_top[["shortname"]], cex=vtm2_top[["weightcex"]], col="black")
+dev.off()
 
 
