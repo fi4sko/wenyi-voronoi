@@ -5,6 +5,7 @@ require(gpclib)
 require(sp)
 require(tripack)
 require(geometry)
+require(fdrtool)
 
 
 
@@ -456,6 +457,14 @@ vtm2[["center"]] = tmp
 tmp_top = as.vector(vtm2[["nodeId"]])[as.vector(vtm2[["hierarchyLevel"]]) == 2]
 tmp_lowtotop = unlist(sapply(vtm2[["nodeId"]], function(x) names(which(unlist(sapply(tmp_top, function(y) grepl(y,x, fixed=T)))))[1]))
 
+# sizes of the labels
+tmp = unlist(apply(vtm2,1,function(x) max(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T)[,1]) - min(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T)[,1])))
+tmp = (tmp/max(tmp))*3
+tmp[tmp < 0.5] = 0.5
+vtm2[["weightcex"]] = tmp
+
+
+
 #  add average expression data to the polygons/terms
 
 tmp = matrix(0,nrow = nrow(vtm2), ncol = 4)
@@ -499,6 +508,12 @@ for( i in 1:nrow(tmp)){
   }
 }
 
+tmp4[is.na(tmp4)] = 1
+
+for(i in 1:4){
+  tmp4[,i] = fdrtool(tmp4[,i], statistic = "pvalue")$qval
+}
+
 vtm2[["significance"]] = tmp4
 
 
@@ -520,17 +535,59 @@ pdf(paste("Figure X2 (Voronoi comparison 1).pdf",sep=""), 10,10, pointsize=12)
 par(xpd=T)
 root = matrix(c(0,1,1,0,0,0,1,1),ncol=2)*1000
 plot(root, type="n", axes=F, xlab="", ylab="", main="Time specificity")
-
 apply(vtm2_last, 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T), col=x['colors.1'],border="light grey" ))
 apply(vtm2[as.vector(vtm2[["hierarchyLevel"]]) == 3,], 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T),lwd=1,border="dark grey" ))
 apply(vtm2[as.vector(vtm2[["hierarchyLevel"]]) == 2,], 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T),lwd=2,border="gray50"))
-
-coverU = vtm2_last[,"comparisons"][,1] > 0 & vtm2_last[,"significance"][,1] < 0.05
-coverD = vtm2_last[,"comparisons"][,1] < 0 & vtm2_last[,"significance"][,1] < 0.05
+coverU = vtm2[,"comparisons"][,1] > 0 & vtm2[,"significance"][,1] < 0.05
+coverD = vtm2[,"comparisons"][,1] < 0 & vtm2[,"significance"][,1] < 0.05
 text(vtm2[coverU,6:7], vtm2[coverU,"shortname"], cex=vtm2[coverU,"weightcex"], col="firebrick4")
 text(vtm2[coverD,6:7], vtm2[coverD,"shortname"], cex=vtm2[coverD,"weightcex"], col="dodgerblue4")
-
-text(vtm2_top[6:7], vtm2_top[["shortname"]], cex=vtm2_top[["weightcex"]], col="black")
+cover = vtm2_top[,"significance"][,1] >= 0.05
+text(vtm2_top[cover,6:7], vtm2_top[cover,"shortname"], cex=vtm2_top[cover,"weightcex"], col="dark grey")
 dev.off()
 
+pdf(paste("Figure X2 (Voronoi comparison 2).pdf",sep=""), 10,10, pointsize=12)
+par(xpd=T)
+root = matrix(c(0,1,1,0,0,0,1,1),ncol=2)*1000
+plot(root, type="n", axes=F, xlab="", ylab="", main="Time specificity")
+apply(vtm2_last, 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T), col=x['colors.2'],border="light grey" ))
+apply(vtm2[as.vector(vtm2[["hierarchyLevel"]]) == 3,], 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T),lwd=1,border="dark grey" ))
+apply(vtm2[as.vector(vtm2[["hierarchyLevel"]]) == 2,], 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T),lwd=2,border="gray50"))
+coverU = vtm2[,"comparisons"][,2] > 0 & vtm2[,"significance"][,2] < 0.05
+coverD = vtm2[,"comparisons"][,2] < 0 & vtm2[,"significance"][,2] < 0.05
+text(vtm2[coverU,6:7], vtm2[coverU,"shortname"], cex=vtm2[coverU,"weightcex"], col="firebrick4")
+text(vtm2[coverD,6:7], vtm2[coverD,"shortname"], cex=vtm2[coverD,"weightcex"], col="dodgerblue4")
+cover = vtm2_top[,"significance"][,2] >= 0.05
+text(vtm2_top[cover,6:7], vtm2_top[cover,"shortname"], cex=vtm2_top[cover,"weightcex"], col="dark grey")
+dev.off()
+
+pdf(paste("Figure X2 (Voronoi comparison 3).pdf",sep=""), 10,10, pointsize=12)
+par(xpd=T)
+root = matrix(c(0,1,1,0,0,0,1,1),ncol=2)*1000
+plot(root, type="n", axes=F, xlab="", ylab="", main="Time specificity")
+apply(vtm2_last, 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T), col=x['colors.3'],border="light grey" ))
+apply(vtm2[as.vector(vtm2[["hierarchyLevel"]]) == 3,], 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T),lwd=1,border="dark grey" ))
+apply(vtm2[as.vector(vtm2[["hierarchyLevel"]]) == 2,], 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T),lwd=2,border="gray50"))
+coverU = vtm2[,"comparisons"][,3] > 0 & vtm2[,"significance"][,3] < 0.05
+coverD = vtm2[,"comparisons"][,3] < 0 & vtm2[,"significance"][,3] < 0.05
+text(vtm2[coverU,6:7], vtm2[coverU,"shortname"], cex=vtm2[coverU,"weightcex"], col="firebrick4")
+text(vtm2[coverD,6:7], vtm2[coverD,"shortname"], cex=vtm2[coverD,"weightcex"], col="dodgerblue4")
+cover = vtm2_top[,"significance"][,3] >= 0.05
+text(vtm2_top[cover,6:7], vtm2_top[cover,"shortname"], cex=vtm2_top[cover,"weightcex"], col="dark grey")
+dev.off()
+
+pdf(paste("Figure X2 (Voronoi comparison 4).pdf",sep=""), 10,10, pointsize=12)
+par(xpd=T)
+root = matrix(c(0,1,1,0,0,0,1,1),ncol=2)*1000
+plot(root, type="n", axes=F, xlab="", ylab="", main="Time specificity")
+apply(vtm2_last, 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T), col=x['colors.4'],border="light grey" ))
+apply(vtm2[as.vector(vtm2[["hierarchyLevel"]]) == 3,], 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T),lwd=1,border="dark grey" ))
+apply(vtm2[as.vector(vtm2[["hierarchyLevel"]]) == 2,], 1, function(x) polygon(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T),lwd=2,border="gray50"))
+coverU = vtm2[,"comparisons"][,4] > 0 & vtm2[,"significance"][,4] < 0.05
+coverD = vtm2[,"comparisons"][,4] < 0 & vtm2[,"significance"][,4] < 0.05
+text(vtm2[coverU,6:7], vtm2[coverU,"shortname"], cex=vtm2[coverU,"weightcex"], col="firebrick4")
+text(vtm2[coverD,6:7], vtm2[coverD,"shortname"], cex=vtm2[coverD,"weightcex"], col="dodgerblue4")
+cover = vtm2_top[,"significance"][,4] >= 0.05
+text(vtm2_top[cover,6:7], vtm2_top[cover,"shortname"], cex=vtm2_top[cover,"weightcex"], col="dark grey")
+dev.off()
 
