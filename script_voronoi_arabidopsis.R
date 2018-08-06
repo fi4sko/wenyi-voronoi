@@ -380,7 +380,7 @@ f.vtm.nonweight = function(Ynames,O2,bins.description){
   write.table(input_table3, 'vtm.txt', sep=";", row.names=F)
   
   # run the VTM
-  system(paste("java -jar Voronoi/Voronoi-Treemap-Library/build/libs/JVoroTreemap.jar", paste(getwd(), '/vtm.txt', sep=""), sep=" "))
+  system(paste("java -jar Voronoi-Treemap-Library/build/libs/JVoroTreemap.jar", paste(getwd(), '/vtm.txt', sep=""), sep=" "))
   
   
   # retrive the result 
@@ -415,7 +415,7 @@ rm(list=setdiff(ls(), c("Y", "O2","O1", "bins.description2", "f.vtm", "f.vtm.non
 ### run for all
 
 
-vtm = f.vtm.nonweight(rownames(Y),O1,bins.description2)
+vtm = f.vtm.nonweight(rownames(Y),O2,bins.description2)
 
 ## reorder the vtm
 rownames(vtm) = vtm[["nodeId"]]
@@ -435,7 +435,61 @@ rownames(tmp4) = rownames(vtm)
 for(i in ncol(tmp4):1){
   tmp4 = tmp4[order(tmp4[,i]),]
 }
-tmp4 = tmp4[c(nrow(tmp4), 1:(nrow(tmp4)-1)),]
+#tmp4 = tmp4[c(nrow(tmp4), 1:(nrow(tmp4)-1)),]
 
 vtm = vtm[rownames(tmp4),]
+
+## remove synthetic nodes
+vtm2 = vtm[grepl("synth", vtm[["nodeId"]]) == F,]
+rownames(vtm2) = vtm2[["nodeId"]]
+
+#identify the cell names
+tmp = apply(vtm2, 1, function(x) strsplit(as.vector(t(x))[3],split=".", fixed=T)[[1]][length(strsplit(as.vector(t(x))[3],split=".", fixed=T)[[1]])]   )
+vtm2[['shortname']] = tmp
+
+#detect centroids for the labels
+tmp =  apply(vtm2, 1, function(x) paste(colMeans(matrix(as.numeric(strsplit(as.vector(t(x))[9],split=",")[[1]]),ncol=2, byrow=T)),collapse=","))
+vtm2[["center"]] = tmp
+
+# associate the bottom with the top layer
+
+tmp_top = as.vector(vtm2[["nodeId"]])[as.vector(vtm2[["hierarchyLevel"]]) == 2]
+tmp_lowtotop = unlist(sapply(vtm2[["nodeId"]], function(x) names(which(unlist(sapply(tmp_top, function(y) grepl(y,x, fixed=T)))))[1]))
+
+#  add average expression data to the polygons/terms
+
+tmp = matrix(0,nrow = nrow(vtm2), ncol = 4)
+for(i in 1:ncol(Y)){
+  tmp[,i] = unlist(sapply(rownames(vtm2), function(x) mean(Y[O2[[x]],i],na.rm = T )))
+}
+colnames(tmp) = 1:4
+
+
+tmp[tmp < -2] = -2
+tmp[tmp >  2] = 2
+
+
+vtm2[["comparisons"]] = tmp
+
+
+# color the polygons
+
+tmp2 = tmp
+tmp2[] = "white"
+tmp2[tmp>0] = "firebrick3"
+tmp2[tmp<0] = "dodgerblue3"
+
+tmp3 = tmp2
+for( i in 1:nrow(tmp)){
+  for(j in 1:ncol(tmp)){
+    tmp3[i,j] = adjustcolor(tmp2[i,j], alpha = abs(tmp[i,j])/2)
+  }
+}
+
+vtm2[["colors"]] = tmp3
+
+
+
+
+
 
