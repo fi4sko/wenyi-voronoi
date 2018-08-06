@@ -1,0 +1,1536 @@
+	bins.description2	shortnames
+bin_R.	root	root
+bin_R.1.	PS	Photosynthesis
+bin_R.1.1.	PS.lightreaction	Light reaction
+bin_R.1.1.1.	PS.lightreaction.photosystem II	PS II
+bin_R.1.1.1.1.	PS.lightreaction.photosystem II.LHC-II	LHC-II
+bin_R.1.1.1.2.	PS.lightreaction.photosystem II.PSII polypeptide subunits	PSII subunits
+bin_R.1.1.2.	PS.lightreaction.photosystem I	PS I
+bin_R.1.1.2.1.	PS.lightreaction.photosystem I.LHC-I	LHC-I
+bin_R.1.1.2.2.	PS.lightreaction.photosystem I.PSI polypeptide subunits	PSI subunits
+bin_R.1.1.3.	PS.lightreaction.cytochrome b6/f	Cyt b6/f
+bin_R.1.1.3.1.	PS.lightreaction.cytochrome b6/f.iron sulfur subunit	FeS subunit
+bin_R.1.1.3.2.	PS.lightreaction.cytochrome b6/f.subunit 4 (PETD)	PETD
+bin_R.1.1.3.3.	PS.lightreaction.cytochrome b6/f.cytochrome b6 (CYB6)	CYB6
+bin_R.1.1.3.4.	PS.lightreaction.cytochrome b6/f.apocytochrome f (CYF)	CYF
+bin_R.1.1.4.	PS.lightreaction.ATP synthase	ATP synthase
+bin_R.1.1.4.1.	PS.lightreaction.ATP synthase.alpha subunit	alpha subunit
+bin_R.1.1.4.2.	PS.lightreaction.ATP synthase.beta subunit	beta subunit
+bin_R.1.1.4.3.	PS.lightreaction.ATP synthase.epsilon chain	epsilon chain
+bin_R.1.1.4.4.	PS.lightreaction.ATP synthase.gamma chain	gamma chain
+bin_R.1.1.4.5.	PS.lightreaction.ATP synthase.subunit C	subunit C
+bin_R.1.1.4.7.	PS.lightreaction.ATP synthase.delta chain	delta chain
+bin_R.1.1.4.8.	PS.lightreaction.ATP synthase.subunit B (ATPF)	subunit B (ATPF)
+bin_R.1.1.4.9.	PS.lightreaction.ATP synthase.subunit B (ATPX)	subunit B_ (ATPX)
+bin_R.1.1.5.	PS.lightreaction.other electron carrier (ox/red)	electron carrier (ox/red)
+bin_R.1.1.5.1.	PS.lightreaction.other electron carrier (ox/red).plastocyanin	plastocyanin
+bin_R.1.1.5.2.	PS.lightreaction.other electron carrier (ox/red).ferredoxin	ferredoxin
+bin_R.1.1.5.3.	PS.lightreaction.other electron carrier (ox/red).ferredoxin reductase	ferredoxin reductase
+bin_R.1.1.5.4.	PS.lightreaction.other electron carrier (ox/red).ferredoxin oxireductase	ferredoxin oxireductase
+bin_R.1.1.6.	PS.lightreaction.NADH DH	NADH DH
+bin_R.1.1.30.	PS.lightreaction.state transition	state transition
+bin_R.1.1.40.	PS.lightreaction.cyclic electron flow-chlororespiration	chlororespiration
+bin_R.1.2.	PS.photorespiration	photorespiration
+bin_R.1.2.1.	PS.photorespiration.phosphoglycolate phosphatase	phosphoglycolate phosphatase
+bin_R.1.2.2.	PS.photorespiration.glycolate oxydase	glycolate oxydase
+bin_R.1.2.3.	PS.photorespiration.aminotransferases peroxisomal	aminotransferases peroxisomal
+bin_R.1.2.4.	PS.photorespiration.glycine cleavage	glycine cleavage
+bin_R.1.2.4.1.	PS.photorespiration.glycine cleavage.P subunit	P subunit
+bin_R.1.2.4.2.	PS.photorespiration.glycine cleavage.T subunit	T subunit
+bin_R.1.2.4.4.	PS.photorespiration.glycine cleavage.H protein	H protein
+bin_R.1.2.5.	PS.photorespiration.serine hydroxymethyltransferase	serine hydroxymethyltransferase
+bin_R.1.2.6.	PS.photorespiration.hydroxypyruvate reductase	hydroxypyruvate reductase
+bin_R.1.2.7.	PS.photorespiration.glycerate kinase	glycerate kinase
+bin_R.1.3.	PS.calvin cycle	calvin cycle
+bin_R.1.3.1.	PS.calvin cycle.rubisco large subunit	rubisco large subunit
+bin_R.1.3.2.	PS.calvin cycle.rubisco small subunit	rubisco small subunit
+bin_R.1.3.3.	PS.calvin cycle.phosphoglycerate kinase	phosphoglycerate kinase
+bin_R.1.3.4.	PS.calvin cycle.GAP	GAP
+bin_R.1.3.5.	PS.calvin cycle.TPI	TPI
+bin_R.1.3.6.	PS.calvin cycle.aldolase	aldolase
+bin_R.1.3.7.	PS.calvin cycle.FBPase	FBPase
+bin_R.1.3.8.	PS.calvin cycle.transketolase	transketolase
+bin_R.1.3.9.	PS.calvin cycle.sedoheptulose bisphosphatase	seduheptulose bisphosphatase
+bin_R.1.3.10.	PS.calvin cycle.Rib5P Isomerase	Rib5P Isomerase
+bin_R.1.3.11.	PS.calvin cycle.RPE	RPE
+bin_R.1.3.12.	PS.calvin cycle.PRK	PRK
+bin_R.1.3.13.	PS.calvin cycle.rubisco interacting	rubisco interacting
+bin_R.2.	major CHO metabolism	major CHO metabolism
+bin_R.2.1.	major CHO metabolism.synthesis	synthesis
+bin_R.2.1.1.	major CHO metabolism.synthesis.sucrose	sucrose
+bin_R.2.1.1.1.	major CHO metabolism.synthesis.sucrose.SPS	SPS
+bin_R.2.1.1.2.	major CHO metabolism.synthesis.sucrose.SPP	SPP
+bin_R.2.1.1.3.	major CHO metabolism.synthesis.sucrose.FBPase	FBPase
+bin_R.2.1.2.	major CHO metabolism.synthesis.starch	starch
+bin_R.2.1.2.1.	major CHO metabolism.synthesis.starch.AGPase	AGPase
+bin_R.2.1.2.2.	major CHO metabolism.synthesis.starch.starch synthase	starch synthase
+bin_R.2.1.2.3.	major CHO metabolism.synthesis.starch.starch branching	starch branching
+bin_R.2.1.2.4.	major CHO metabolism.synthesis.starch.debranching	Starch debranching
+bin_R.2.1.2.5.	major CHO metabolism.synthesis.starch.transporter	transport
+bin_R.2.1.2.60.	major CHO metabolism.synthesis.starch.ADP Glucose Phosphorylase	ADP Glucose Phosphorylase
+bin_R.2.2.	major CHO metabolism.degradation	degradation
+bin_R.2.2.1.	major CHO metabolism.degradation.sucrose	sucrose
+bin_R.2.2.1.1.	major CHO metabolism.degradation.sucrose.fructokinase	fructokinase
+bin_R.2.2.1.3.	major CHO metabolism.degradation.sucrose.invertases	invertases
+bin_R.2.2.1.3.1.	major CHO metabolism.degradation.sucrose.invertases.neutral	neutral
+bin_R.2.2.1.3.2.	major CHO metabolism.degradation.sucrose.invertases.cell wall	cell wall
+bin_R.2.2.1.3.3.	major CHO metabolism.degradation.sucrose.invertases.vacuolar	vacuolar
+bin_R.2.2.1.3.30.	major CHO metabolism.degradation.sucrose.invertases.inhibitors	inhibitors
+bin_R.2.2.1.4.	major CHO metabolism.degradation.sucrose.hexokinase	hexokinase
+bin_R.2.2.1.5.	major CHO metabolism.degradation.sucrose.Susy	Susy
+bin_R.2.2.1.99.	major CHO metabolism.degradation.sucrose.misc	misc
+bin_R.2.2.2.	major CHO metabolism.degradation.starch	starch
+bin_R.2.2.2.1.	major CHO metabolism.degradation.starch.starch cleavage	starch cleavage
+bin_R.2.2.2.1.1.	major CHO metabolism.degradation.starch.starch cleavage.alpha amylase	alpha amylase
+bin_R.2.2.2.1.2.	major CHO metabolism.degradation.starch.starch cleavage.beta amylase	beta amylase
+bin_R.2.2.2.2.	major CHO metabolism.degradation.starch.starch phosphorylase	starch phosphorylase
+bin_R.2.2.2.3.	major CHO metabolism.degradation.starch.glucan water dikinase	glucan water dikinase
+bin_R.2.2.2.4.	major CHO metabolism.degradation.starch.D enzyme	D enzyme
+bin_R.2.2.2.6.	major CHO metabolism.degradation.starch.transporter	transporter
+bin_R.2.2.2.8.	major CHO metabolism.degradation.starch.ISA3	ISA3
+bin_R.2.2.2.9.	major CHO metabolism.degradation.starch.limit dextrinase/pullulanase	pullulanase
+bin_R.2.2.2.10.	major CHO metabolism.degradation.starch.laforin like phosphoglucan phosphatase (SEX4)	phosphoglucan phosphatase (SEX4)
+bin_R.3.	minor CHO metabolism	minor CHO metabolism
+bin_R.3.1.	minor CHO metabolism.raffinose family	raffinose family
+bin_R.3.1.1.	minor CHO metabolism.raffinose family.galactinol synthases	galactinol synthases
+bin_R.3.1.1.1.	minor CHO metabolism.raffinose family.galactinol synthases.known	known
+bin_R.3.1.1.2.	minor CHO metabolism.raffinose family.galactinol synthases.putative	putative
+bin_R.3.1.2.	minor CHO metabolism.raffinose family.raffinose synthases	raffinose synthases
+bin_R.3.1.2.1.	minor CHO metabolism.raffinose family.raffinose synthases.known	known
+bin_R.3.1.2.2.	minor CHO metabolism.raffinose family.raffinose synthases.putative	putative
+bin_R.3.1.3.	minor CHO metabolism.raffinose family.stachyose synthases	stachyose synthases
+bin_R.3.2.	minor CHO metabolism.trehalose	trehalose
+bin_R.3.2.1.	minor CHO metabolism.trehalose.TPS	TPS
+bin_R.3.2.2.	minor CHO metabolism.trehalose.TPP	TPP
+bin_R.3.2.3.	minor CHO metabolism.trehalose.potential TPS/TPP	potential TPS/TPP
+bin_R.3.2.4.	minor CHO metabolism.trehalose.trehalase	trehalase
+bin_R.3.3.	minor CHO metabolism.sugar alcohols	sugar alcohols
+bin_R.3.4.	minor CHO metabolism.myo-inositol	myo-inositol
+bin_R.3.4.1.	minor CHO metabolism.myo-inositol.poly-phosphatases	poly-phosphatases
+bin_R.3.4.2.	minor CHO metabolism.myo-inositol.InsP kinases	InsP-Kinases
+bin_R.3.4.3.	minor CHO metabolism.myo-inositol.InsP synthases	InsP Synthases
+bin_R.3.4.4.	minor CHO metabolism.myo-inositol.myo-inositol oxygenases	myo inositol oxygenases
+bin_R.3.4.5.	minor CHO metabolism.myo-inositol.inositol phosphatase	inositol phosphatase
+bin_R.3.5.	minor CHO metabolism.others	others
+bin_R.3.5.1.	minor CHO metabolism.others.xylose isomerase	Xylose isomerase
+bin_R.3.6.	minor CHO metabolism.callose	callose
+bin_R.3.7.	minor CHO metabolism.sugar kinases	sugar kinases
+bin_R.3.8.	minor CHO metabolism.galactose	galactose
+bin_R.3.8.1.	minor CHO metabolism.galactose.galactokinases	galactokinases
+bin_R.3.8.2.	minor CHO metabolism.galactose.alpha-galactosidases	alpha-galactosidases
+bin_R.3.8.3.	minor CHO metabolism.galactose.galactose-1-phosphate uridyl transferases	galactose-1-phosphate uridyl transferases
+bin_R.3.99.	minor CHO metabolism.misc	misc
+bin_R.4.	glycolysis	glycolysis
+bin_R.4.1.	glycolysis.cytosolic branch	cytosolic branch
+bin_R.4.1.1.	glycolysis.cytosolic branch.UGPase	UGPase
+bin_R.4.1.2.	glycolysis.cytosolic branch.phosphoglucomutase (PGM)	PGM
+bin_R.4.1.3.	glycolysis.cytosolic branch.glucose-6-phosphate isomerase	GPI
+bin_R.4.1.4.	glycolysis.cytosolic branch.phosphofructokinase (PFK)	PFK
+bin_R.4.1.5.	glycolysis.cytosolic branch.pyrophosphate-fructose-6-P phosphotransferase	PFP
+bin_R.4.1.6.	glycolysis.cytosolic branch.fructose-2,6-bisphosphatase (Fru2,6BisPase)	Fru-2,6-BisPase
+bin_R.4.1.7.	glycolysis.cytosolic branch.triosephosphate isomerase (TPI)	TPI
+bin_R.4.1.8.	glycolysis.cytosolic branch.glyceraldehyde 3-phosphate dehydrogenase (GAP-DH)	GAP-DH
+bin_R.4.1.9.	glycolysis.cytosolic branch.non-phosphorylating glyceraldehyde 3-phosphate dehydrogenase (NPGAP-DH)	NPGAP-DH
+bin_R.4.1.10.	glycolysis.cytosolic branch.aldolase	aldolase
+bin_R.4.1.11.	glycolysis.cytosolic branch.3-phosphoglycerate kinase (PGK)	PGK
+bin_R.4.1.12.	glycolysis.cytosolic branch.phosphoglycerate mutase	PGM
+bin_R.4.1.13.	glycolysis.cytosolic branch.enolase	enolase
+bin_R.4.1.14.	glycolysis.cytosolic branch.pyruvate kinase (PK)	PK
+bin_R.4.1.15.	glycolysis.cytosolic branch.phospho-enol-pyruvate carboxylase (PEPC)	PEPC
+bin_R.4.1.16.	glycolysis.cytosolic branch.phosphoenolpyruvate carboxykinase (PEPCK)	PPCK
+bin_R.4.2.	glycolysis.plastid branch	plastid branch
+bin_R.4.2.2.	glycolysis.plastid branch.phosphoglucomutase (PGM)	PGM
+bin_R.4.2.3.	glycolysis.plastid branch.glucose-6-phosphate isomerase	GPI
+bin_R.4.2.4.	glycolysis.plastid branch.phosphofructokinase (PFK)	PFK
+bin_R.4.2.5.	glycolysis.plastid branch.pyrophosphate-fructose-6-P phosphotransferase	PFP
+bin_R.4.2.12.	glycolysis.plastid branch.phosphoglycerate mutase	PGM
+bin_R.4.2.14.	glycolysis.plastid branch.pyruvate kinase (PK)	PK
+bin_R.4.3.	glycolysis.unclear/dually targeted	Unclear and dually targeted
+bin_R.4.3.1.	glycolysis.unclear/dually targeted.UGPase	UGPase
+bin_R.4.3.5.	glycolysis.unclear/dually targeted.pyrophosphate-fructose-6-P phosphotransferase	PFP
+bin_R.4.3.7.	glycolysis.unclear/dually targeted.triosephosphate isomerase (TPI)	TPI
+bin_R.4.3.8.	glycolysis.unclear/dually targeted.glyceraldehyde 3-phosphate dehydrogenase (GAP-DH)	GAP-DH
+bin_R.4.3.12.	glycolysis.unclear/dually targeted.phosphoglycerate mutase	PGM
+bin_R.4.3.14.	glycolysis.unclear/dually targeted.pyruvate kinase (PK)	PK
+bin_R.4.3.15.	glycolysis.unclear/dually targeted.phospho-enol-pyruvate carboxylase (PEPC)	PEPC
+bin_R.5.	fermentation	fermentation
+bin_R.5.1.	fermentation.LDH	LDH
+bin_R.5.2.	fermentation.PDC	PDC
+bin_R.5.3.	fermentation.ADH	ADH
+bin_R.5.10.	fermentation.aldehyde dehydrogenase	aldehyde dehydrogenase
+bin_R.6.	gluconeogenesis / glyoxylate cycle	glyoxylate cycle
+bin_R.6.1.	gluconeogenesis / glyoxylate cycle.citrate synthase	citrate synthase
+bin_R.6.2.	gluconeogenesis / glyoxylate cycle.malate synthase	malate synthase
+bin_R.6.3.	gluconeogenesis / glyoxylate cycle.malate dehydrogenase	Malate DH
+bin_R.6.4.	gluconeogenesis / glyoxylate cycle.phosphoenolpyruvate carboxykinase (PEPCK)	PEPCK
+bin_R.6.5.	gluconeogenesis / glyoxylate cycle.pyruvate dikinase	pyruvate dikinase
+bin_R.6.9.	gluconeogenesis / glyoxylate cycle.isocitrate lyase	isocitrate lyase
+bin_R.7.	OPP	Pentose-Phosphate Pathway
+bin_R.7.1.	OPP.oxidative PP	oxidative PP
+bin_R.7.1.1.	OPP.oxidative PP.glucose-6-phosphate 1-dehydrogenase (G6PD)	G6PD
+bin_R.7.1.2.	OPP.oxidative PP.6-phosphogluconolactonase	6-phosphogluconolactonase
+bin_R.7.1.3.	OPP.oxidative PP.6-phosphogluconate dehydrogenase	6-phosphogluconate dehydrogenase
+bin_R.7.2.	OPP.non-reductive PP	non-reductive PP
+bin_R.7.2.1.	OPP.non-reductive PP.transketolase	transketolase
+bin_R.7.2.2.	OPP.non-reductive PP.transaldolase	transaldolase
+bin_R.7.2.3.	OPP.non-reductive PP.ribulose-phosphate 3-epimerase	ribulose-phosphate 3-epimerase
+bin_R.7.2.4.	OPP.non-reductive PP.ribose 5-phosphate isomerase	ribose 5-phosphate isomerase
+bin_R.7.3.	OPP.electron transfer	electron transfer
+bin_R.8.	TCA / organic transformation	organic acid transformations
+bin_R.8.1.	TCA / organic transformation.TCA	TCA
+bin_R.8.1.1.	TCA / organic transformation.TCA.pyruvate DH	pyruvate DH
+bin_R.8.1.1.1.	TCA / organic transformation.TCA.pyruvate DH.E1	E1
+bin_R.8.1.1.2.	TCA / organic transformation.TCA.pyruvate DH.E2	E2
+bin_R.8.1.1.3.	TCA / organic transformation.TCA.pyruvate DH.E3	E3
+bin_R.8.1.2.	TCA / organic transformation.TCA.CS	CS
+bin_R.8.1.3.	TCA / organic transformation.TCA.aconitase	aconitase
+bin_R.8.1.4.	TCA / organic transformation.TCA.IDH	IDH
+bin_R.8.1.5.	TCA / organic transformation.TCA.2-oxoglutarate dehydrogenase	2-oxoglutarate dehydrogenase
+bin_R.8.1.6.	TCA / organic transformation.TCA.succinyl-CoA ligase	succinyl-CoA ligase
+bin_R.8.1.7.	TCA / organic transformation.TCA.succinate dehydrogenase	succinate dehydrogenase
+bin_R.8.1.8.	TCA / organic transformation.TCA.fumarase	fumarase
+bin_R.8.1.9.	TCA / organic transformation.TCA.malate DH	malate DH
+bin_R.8.1.99.	TCA / organic transformation.TCA.misc	misc
+bin_R.8.2.	TCA / organic transformation.other organic acid transformations	other
+bin_R.8.2.3.	TCA / organic transformation.other organic acid transformations.aconitase	aconitase
+bin_R.8.2.4.	TCA / organic transformation.other organic acid transformations.IDH	IDH
+bin_R.8.2.9.	TCA / organic transformation.other organic acid transformations.cyt MDH	cyt MDH
+bin_R.8.2.10.	TCA / organic transformation.other organic acid transformations.malic	malic
+bin_R.8.2.11.	TCA / organic transformation.other organic acid transformations.atp-citrate lyase	atp-citrate lyase
+bin_R.8.2.99.	TCA / organic transformation.other organic acid transformations.misc	misc
+bin_R.8.3.	TCA / organic transformation.carbonic anhydrases	carbonic anhydrases
+bin_R.9.	mitochondrial electron transport / ATP synthesis	ATP synthesis
+bin_R.9.1.	mitochondrial electron transport / ATP synthesis.NADH-DH (type I)	NADH-DH
+bin_R.9.1.1.	mitochondrial electron transport / ATP synthesis.NADH-DH (type I).complex I	complex I
+bin_R.9.1.1.5.	mitochondrial electron transport / ATP synthesis.NADH-DH (type I).complex I.carbonic anhydrase	carbonic anhydrase
+bin_R.9.1.2.	mitochondrial electron transport / ATP synthesis.NADH-DH (type I).localisation not clear	localisation not clear
+bin_R.9.2.	mitochondrial electron transport / ATP synthesis.NADH-DH (type II)	NADH-DH type II
+bin_R.9.2.1.	mitochondrial electron transport / ATP synthesis.NADH-DH (type II).internal matrix	internal matrix
+bin_R.9.2.2.	mitochondrial electron transport / ATP synthesis.NADH-DH (type II).external	external
+bin_R.9.2.3.	mitochondrial electron transport / ATP synthesis.NADH-DH (type II).mitochondrial	mitochondrial
+bin_R.9.3.	mitochondrial electron transport / ATP synthesis.electron transfer flavoprotein	electron transfer flavoprotein
+bin_R.9.4.	mitochondrial electron transport / ATP synthesis.alternative oxidase	alternative oxidase
+bin_R.9.5.	mitochondrial electron transport / ATP synthesis.cytochrome c reductase	cytochrome c reductase
+bin_R.9.6.	mitochondrial electron transport / ATP synthesis.cytochrome c	cytochrome c
+bin_R.9.7.	mitochondrial electron transport / ATP synthesis.cytochrome c oxidase	cytochrome c oxidase
+bin_R.9.8.	mitochondrial electron transport / ATP synthesis.uncoupling protein	uncoupling protein
+bin_R.9.9.	mitochondrial electron transport / ATP synthesis.F1-ATPase	F1-ATPase
+bin_R.9.99.	mitochondrial electron transport / ATP synthesis.unspecified	unspecified
+bin_R.10.	cell wall	cell wall
+bin_R.10.1.	cell wall.precursor synthesis	precursor synthesis
+bin_R.10.1.1.	cell wall.precursor synthesis.NDP sugar pyrophosphorylase	NDP sugar pyrophosphorylase
+bin_R.10.1.1.1.	cell wall.precursor synthesis.NDP sugar pyrophosphorylase.GDP mannose	GDP mannose
+bin_R.10.1.1.2.	cell wall.precursor synthesis.NDP sugar pyrophosphorylase.GDP fucose and fucokinase	GDP fucose and fucokinase
+bin_R.10.1.1.20.	cell wall.precursor synthesis.NDP sugar pyrophosphorylase.multiple NDP-Sugars	multiple NDP-Sugars
+bin_R.10.1.2.	cell wall.precursor synthesis.UGE	UGE
+bin_R.10.1.3.	cell wall.precursor synthesis.AXS	AXS
+bin_R.10.1.4.	cell wall.precursor synthesis.UGD	UGD
+bin_R.10.1.5.	cell wall.precursor synthesis.UXS	UXS
+bin_R.10.1.6.	cell wall.precursor synthesis.GAE	GAE
+bin_R.10.1.7.	cell wall.precursor synthesis.GMD	GMD
+bin_R.10.1.8.	cell wall.precursor synthesis.GER	GER
+bin_R.10.1.9.	cell wall.precursor synthesis.MUR4	MUR4
+bin_R.10.1.10.	cell wall.precursor synthesis.RHM	UDP-glucose 4,6-dehydratase
+bin_R.10.1.11.	cell wall.precursor synthesis.UER	UER
+bin_R.10.1.12.	cell wall.precursor synthesis.KDO pathway	KDO pathway
+bin_R.10.1.12.1.	cell wall.precursor synthesis.KDO pathway.arabinose-5-phosphate isomerase	arabinose-5-phosphate isomerase
+bin_R.10.1.12.2.	cell wall.precursor synthesis.KDO pathway.KDO-8-phosphate synthase	KDO-8-Phosphate Synthase
+bin_R.10.1.12.4.	cell wall.precursor synthesis.KDO pathway.CMP-KDO synthetase	CMP-KDO Synthetase
+bin_R.10.1.20.	cell wall.precursor synthesis.phosphomannose isomerase	phosphomannose isomerase
+bin_R.10.1.21.	cell wall.precursor synthesis.phosphomannomutase	phosphomannomutase
+bin_R.10.1.30.	cell wall.precursor synthesis.sugar kinases	sugar kinases
+bin_R.10.1.30.1.	cell wall.precursor synthesis.sugar kinases.galacturonic acid kinase	galacturonic acid kinase
+bin_R.10.1.30.2.	cell wall.precursor synthesis.sugar kinases.arabinose-1-kinase	arabinose-1-kinase
+bin_R.10.1.30.3.	cell wall.precursor synthesis.sugar kinases.glucuronic acid kinase	glucuronic acid kinase
+bin_R.10.2.	cell wall.cellulose synthesis	cellulose synthesis
+bin_R.10.2.1.	cell wall.cellulose synthesis.cellulose synthase	cellulose synthase
+bin_R.10.2.2.	cell wall.cellulose synthesis.COBRA	COBRA
+bin_R.10.3.	cell wall.hemicellulose synthesis	hemicellulose synthesis
+bin_R.10.3.1.	cell wall.hemicellulose synthesis.xyloglucan	xyloglucan
+bin_R.10.3.1.1.	cell wall.hemicellulose synthesis.xyloglucan.XXXG galactose transferase	XXXG galactose Transferase
+bin_R.10.3.2.	cell wall.hemicellulose synthesis.glucuronoxylan	glucuronoxylan
+bin_R.10.4.	cell wall.pectin synthesis	pectin synthesis
+bin_R.10.4.1.	cell wall.pectin synthesis.homogalacturonan	homogalacturonan
+bin_R.10.4.1.1.	cell wall.pectin synthesis.homogalacturonan.galacturonic acid transferase	Galacturonic Acid Trnasferase
+bin_R.10.4.3.	cell wall.pectin synthesis.rhamnogalacturonan II	rhamnogalacturonan II
+bin_R.10.4.3.6.	cell wall.pectin synthesis.rhamnogalacturonan II.xylose transferase with fucose acceptor	Xylose  Transferase with Fucose Acceptor
+bin_R.10.4.4.	cell wall.pectin synthesis.xylogalacturonan	Xylogalacturonan
+bin_R.10.4.4.1.	cell wall.pectin synthesis.xylogalacturonan.xylose transferase	Xylose Transferase
+bin_R.10.5.	cell wall.cell wall proteins	cell wall proteins
+bin_R.10.5.1.	cell wall.cell wall proteins.AGPs	AGPs
+bin_R.10.5.1.1.	cell wall.cell wall proteins.AGPs.AGP	AGP
+bin_R.10.5.2.	cell wall.cell wall proteins.proline rich proteins	proline rich proteins
+bin_R.10.5.3.	cell wall.cell wall proteins.LRR	LRR
+bin_R.10.5.4.	cell wall.cell wall proteins.HRGP	HRGP
+bin_R.10.5.5.	cell wall.cell wall proteins.RGP	RGP
+bin_R.10.6.	cell wall.degradation	degradation
+bin_R.10.6.1.	cell wall.degradation.cellulases and beta-1,4-glucanases	cellulases and beta -1,4-glucanases
+bin_R.10.6.2.	cell wall.degradation.mannan-xylose-arabinose-fucose	mannan-xylose-arabinose-fucose
+bin_R.10.6.3.	cell wall.degradation.pectate lyases and polygalacturonases	pectate lyases and polygalacturonases
+bin_R.10.7.	cell wall.modification	modification
+bin_R.10.8.	cell wall.pectinesterases	Pectin esterases
+bin_R.10.8.1.	cell wall.pectinesterases.PME	PME
+bin_R.10.8.2.	cell wall.pectinesterases.acetyl esterase	acetyl esterase
+bin_R.10.8.99.	cell wall.pectinesterases.misc	misc
+bin_R.11.	lipid metabolism	lipid metabolism
+bin_R.11.1.	lipid metabolism.FA synthesis and FA elongation	FA synthesis and elongation
+bin_R.11.1.1.	lipid metabolism.FA synthesis and FA elongation.acetyl CoA carboxylation	Acetyl CoA Carboxylation
+bin_R.11.1.1.1.	lipid metabolism.FA synthesis and FA elongation.acetyl CoA carboxylation.homomeric enzyme	homomeric Enzyme
+bin_R.11.1.1.2.	lipid metabolism.FA synthesis and FA elongation.acetyl CoA carboxylation.heteromeric complex	heteromeric Complex
+bin_R.11.1.1.2.1.	lipid metabolism.FA synthesis and FA elongation.acetyl CoA carboxylation.heteromeric complex.alpha carboxyltransferase	alpha Carboxyltransferase
+bin_R.11.1.1.2.3.	lipid metabolism.FA synthesis and FA elongation.acetyl CoA carboxylation.heteromeric complex.biotin carboxyl carrier protein	Biotin Carboxyl Carrier Protein
+bin_R.11.1.1.2.4.	lipid metabolism.FA synthesis and FA elongation.acetyl CoA carboxylation.heteromeric complex.biotin carboxylase	Biotin Carboxylase
+bin_R.11.1.2.	lipid metabolism.FA synthesis and FA elongation.acetyl CoA transacylase	Acetyl CoA Transacylase
+bin_R.11.1.3.	lipid metabolism.FA synthesis and FA elongation.ketoacyl ACP synthase	ketoacyl ACP synthase
+bin_R.11.1.4.	lipid metabolism.FA synthesis and FA elongation.ACP oxoacyl reductase	ACP oxoacyl reductase
+bin_R.11.1.5.	lipid metabolism.FA synthesis and FA elongation.beta hydroxyacyl ACP dehydratase	beta hydroxyacyl ACP dehydratase
+bin_R.11.1.6.	lipid metabolism.FA synthesis and FA elongation.enoyl ACP reductase	enoyl ACP reductase
+bin_R.11.1.7.	lipid metabolism.FA synthesis and FA elongation.ACP thioesterase	ACP thioesterase
+bin_R.11.1.8.	lipid metabolism.FA synthesis and FA elongation.acyl CoA ligase	acyl coa ligase
+bin_R.11.1.9.	lipid metabolism.FA synthesis and FA elongation.long chain fatty acid CoA ligase	long chain fatty acid CoA ligase
+bin_R.11.1.10.	lipid metabolism.FA synthesis and FA elongation.beta ketoacyl CoA synthase	beta ketoacyl CoA synthase
+bin_R.11.1.11.	lipid metabolism.FA synthesis and FA elongation.fatty acid elongase	fatty acid elongase
+bin_R.11.1.12.	lipid metabolism.FA synthesis and FA elongation.ACP protein	ACP protein
+bin_R.11.1.13.	lipid metabolism.FA synthesis and FA elongation.acyl-CoA binding protein	acyl-CoA binding protein
+bin_R.11.1.15.	lipid metabolism.FA synthesis and FA elongation.ACP desaturase	ACP desaturase
+bin_R.11.1.20.	lipid metabolism.FA synthesis and FA elongation.MCD	MCD
+bin_R.11.1.30.	lipid metabolism.FA synthesis and FA elongation.pyruvate kinase	pyruvate kinase
+bin_R.11.1.31.	lipid metabolism.FA synthesis and FA elongation.pyruvate DH	pyruvate DH
+bin_R.11.2.	lipid metabolism.FA desaturation	FA desaturation
+bin_R.11.2.1.	lipid metabolism.FA desaturation.desaturase	desaturase
+bin_R.11.2.2.	lipid metabolism.FA desaturation.a hydroxylase	a hydroxylase
+bin_R.11.2.3.	lipid metabolism.FA desaturation.omega 3 desaturase	omega 3 desaturase
+bin_R.11.2.4.	lipid metabolism.FA desaturation.omega 6 desaturase	omega 6 desaturase
+bin_R.11.3.	lipid metabolism.phospholipid synthesis	Phospholipid synthesis
+bin_R.11.3.1.	lipid metabolism.phospholipid synthesis.1-acylglycerol-3-phosphate O-acyltransferase	1-acylglycerol-3-phosphate O-acyltransferase
+bin_R.11.3.2.	lipid metabolism.phospholipid synthesis.choline kinase	choline kinase
+bin_R.11.3.3.	lipid metabolism.phospholipid synthesis.phosphatidate cytidylyltransferase	phosphatidate cytidylyltransferase
+bin_R.11.3.4.	lipid metabolism.phospholipid synthesis.CDP-diacylglycerol-inositol 3-phosphatidyltransferase	CDP-diacylglycerol-inositol 3-phosphatidyltransferase
+bin_R.11.3.5.	lipid metabolism.phospholipid synthesis.diacylglycerol kinase	diacylglycerol kinase
+bin_R.11.3.6.	lipid metabolism.phospholipid synthesis.choline-phosphate cytidylyltransferase	choline-phosphate cytidylyltransferase
+bin_R.11.3.7.	lipid metabolism.phospholipid synthesis.cyclopropane-fatty-acyl-phospholipid synthase	cyclopropane-fatty-acyl-phospholipid synthase
+bin_R.11.3.8.	lipid metabolism.phospholipid synthesis.phosphatidylserine decarboxylase	phosphatidylserine decarboxylase
+bin_R.11.3.9.	lipid metabolism.phospholipid synthesis.choline monooxygenase	choline monooxygenase
+bin_R.11.3.10.	lipid metabolism.phospholipid synthesis.(S)-coclaurine-N-methyltransferase	(S)-coclaurine-N-methyltransferase
+bin_R.11.4.	lipid metabolism.TAG synthesis	TAG synthesis
+bin_R.11.5.	lipid metabolism.glycerol metabolism	glycerol metabolism
+bin_R.11.5.1.	lipid metabolism.glycerol metabolism.glycerol kinase	glycerol kinase
+bin_R.11.5.2.	lipid metabolism.glycerol metabolism.glycerol-3-phosphate dehydrogenase (NAD+)	Glycerol-3-phosphate dehydrogenase (NAD+)
+bin_R.11.5.3.	lipid metabolism.glycerol metabolism.FAD-dependent glycerol-3-phosphate dehydrogenase	FAD-dependent glycerol-3-phosphate dehydrogenase
+bin_R.11.6.	lipid metabolism.lipid transfer proteins etc	lipid transfer proteins
+bin_R.11.7.	lipid metabolism.unassigned	unassigned
+bin_R.11.8.	lipid metabolism.exotics (steroids, squalene etc)	steroids and squalene metabolism
+bin_R.11.8.1.	lipid metabolism.exotics (steroids, squalene etc).sphingolipids	sphingolipids
+bin_R.11.8.1.1.	lipid metabolism.exotics (steroids, squalene etc).sphingolipids.ceramidase	ceramidase
+bin_R.11.8.1.2.	lipid metabolism.exotics (steroids, squalene etc).sphingolipids.serine C-palmitoyltransferase	serine C-palmitoyltransferase
+bin_R.11.8.1.3.	lipid metabolism.exotics (steroids, squalene etc).sphingolipids.ceramide glucosyltransferase	ceramide glucosyltransferase
+bin_R.11.8.2.	lipid metabolism.exotics (steroids, squalene etc).methylsterol monooxygenase	methylsterol monooxygenase
+bin_R.11.8.3.	lipid metabolism.exotics (steroids, squalene etc).UDP-glucose:sterol glucosyltransferase	UDP-glucose:sterol glucosyltransferase
+bin_R.11.8.4.	lipid metabolism.exotics (steroids, squalene etc).3-beta hydroxysteroid dehydrogenase/isomerase	3-beta hydroxysteroid dehydrogenase/isomerase
+bin_R.11.8.7.	lipid metabolism.exotics (steroids, squalene etc).trans-2-enoyl-CoA reductase (NADPH)	trans-2-enoyl-CoA reductase (NADPH)
+bin_R.11.8.8.	lipid metabolism.exotics (steroids, squalene etc).squalene synthase	squalene synthase
+bin_R.11.8.10.	lipid metabolism.exotics (steroids, squalene etc).phosphatidylcholine-sterol O-acyltransferase	phosphatidylcholinesterol O-acyltransferase
+bin_R.11.9.	lipid metabolism.lipid degradation	lipid degradation
+bin_R.11.9.2.	lipid metabolism.lipid degradation.lipases	lipases
+bin_R.11.9.2.1.	lipid metabolism.lipid degradation.lipases.triacylglycerol lipase	triacylglycerol lipase
+bin_R.11.9.2.2.	lipid metabolism.lipid degradation.lipases.acylglycerol lipase	acylglycerol lipase
+bin_R.11.9.3.	lipid metabolism.lipid degradation.lysophospholipases	lysophospholipases
+bin_R.11.9.3.1.	lipid metabolism.lipid degradation.lysophospholipases.phospholipase D	phospholipase D
+bin_R.11.9.3.2.	lipid metabolism.lipid degradation.lysophospholipases.carboxylesterase	carboxylesterase
+bin_R.11.9.3.3.	lipid metabolism.lipid degradation.lysophospholipases.glycerophosphodiester phosphodiesterase	glycerophosphodiester phosphodiesterase
+bin_R.11.9.3.4.	lipid metabolism.lipid degradation.lysophospholipases.phospholipase A2	phospholipase A2
+bin_R.11.9.3.5.	lipid metabolism.lipid degradation.lysophospholipases.phosphoinositide phospholipase C	phosphoinositide phospholipase C
+bin_R.11.9.4.	lipid metabolism.lipid degradation.beta-oxidation	beta-oxidation
+bin_R.11.9.4.2.	lipid metabolism.lipid degradation.beta-oxidation.acyl CoA DH	acyl CoA DH
+bin_R.11.9.4.3.	lipid metabolism.lipid degradation.beta-oxidation.enoyl CoA hydratase	enoyl CoA hydratase
+bin_R.11.9.4.4.	lipid metabolism.lipid degradation.beta-oxidation.hydroxybutyryl CoA DH	hydroxybutyryl CoA DH
+bin_R.11.9.4.5.	lipid metabolism.lipid degradation.beta-oxidation.acyl-CoA thioesterase	acyl-CoA thioesterase
+bin_R.11.9.4.9.	lipid metabolism.lipid degradation.beta-oxidation.multifunctional	multifunctional
+bin_R.11.9.4.13.	lipid metabolism.lipid degradation.beta-oxidation.acyl CoA reductase	acyl CoA reductase
+bin_R.11.9.4.14.	lipid metabolism.lipid degradation.beta-oxidation.enoyl isomerase	enoyl isomerase
+bin_R.11.9.4.99.	lipid metabolism.lipid degradation.beta-oxidation.misc	misc
+bin_R.11.10.	lipid metabolism.glycolipid synthesis	glycolipid synthesis
+bin_R.11.10.1.	lipid metabolism.glycolipid synthesis.MGDG synthase	MGDG synthase
+bin_R.11.10.2.	lipid metabolism.glycolipid synthesis.DGDG synthase	DGDG synthase
+bin_R.11.10.3.	lipid metabolism.glycolipid synthesis.UDP-sulfoquinovose synthase	UDP-sulfoquinovose synthase
+bin_R.11.10.4.	lipid metabolism.glycolipid synthesis.sulfolipid synthase	sulfolipid synthase
+bin_R.12.	N-metabolism	N-metabolism
+bin_R.12.1.	N-metabolism.nitrate metabolism	nitrate metabolism
+bin_R.12.1.1.	N-metabolism.nitrate metabolism.NR	NR
+bin_R.12.1.2.	N-metabolism.nitrate metabolism.nitrite reductase	nitrite reductase
+bin_R.12.2.	N-metabolism.ammonia metabolism	ammonia metabolism
+bin_R.12.2.1.	N-metabolism.ammonia metabolism.glutamate synthase	glutamate synthase
+bin_R.12.2.1.1.	N-metabolism.ammonia metabolism.glutamate synthase.ferredoxin dependent	ferredoxin dependent
+bin_R.12.2.1.2.	N-metabolism.ammonia metabolism.glutamate synthase.NADH dependent	NADH dependent
+bin_R.12.2.2.	N-metabolism.ammonia metabolism.glutamine synthetase	glutamine synthase
+bin_R.12.2.99.	N-metabolism.ammonia metabolism.unspecified	unspecified
+bin_R.12.3.	N-metabolism.N-degradation	N-degradation
+bin_R.12.3.1.	N-metabolism.N-degradation.glutamate dehydrogenase	glutamate dehydrogenase
+bin_R.12.4.	N-metabolism.misc	misc
+bin_R.13.	amino acid metabolism	amino acid metabolism
+bin_R.13.1.	amino acid metabolism.synthesis	synthesis
+bin_R.13.1.1.	amino acid metabolism.synthesis.central amino acid metabolism	central amino acid metabolism
+bin_R.13.1.1.1.	amino acid metabolism.synthesis.central amino acid metabolism.GABA	GABA
+bin_R.13.1.1.1.1.	amino acid metabolism.synthesis.central amino acid metabolism.GABA.glutamate decarboxylase	Glutamate decarboxylase
+bin_R.13.1.1.1.2.	amino acid metabolism.synthesis.central amino acid metabolism.GABA.GABA transaminase	GABA transaminase
+bin_R.13.1.1.2.	amino acid metabolism.synthesis.central amino acid metabolism.aspartate	aspartate
+bin_R.13.1.1.2.1.	amino acid metabolism.synthesis.central amino acid metabolism.aspartate.aspartate aminotransferase	aspartate aminotransferase
+bin_R.13.1.1.3.	amino acid metabolism.synthesis.central amino acid metabolism.alanine	alanine
+bin_R.13.1.1.3.1.	amino acid metabolism.synthesis.central amino acid metabolism.alanine.alanine aminotransferase	alanine aminotransferase
+bin_R.13.1.1.3.11.	amino acid metabolism.synthesis.central amino acid metabolism.alanine.alanine-glyoxylate aminotransferase	alanine-glyoxylate aminotransferase
+bin_R.13.1.2.	amino acid metabolism.synthesis.glutamate family	glutamate family
+bin_R.13.1.2.2.	amino acid metabolism.synthesis.glutamate family.proline	proline
+bin_R.13.1.2.2.1.	amino acid metabolism.synthesis.glutamate family.proline.delta 1-pyrroline-5-carboxylate synthetase	delta 1-pyrroline-5-carboxylate synthetase
+bin_R.13.1.2.3.	amino acid metabolism.synthesis.glutamate family.arginine	arginine
+bin_R.13.1.2.3.2.	amino acid metabolism.synthesis.glutamate family.arginine.acetylglutamate kinase	acetylglutamate kinase
+bin_R.13.1.2.3.4.	amino acid metabolism.synthesis.glutamate family.arginine.acetylornithine aminotransferase	acetylornithine aminotransferase
+bin_R.13.1.2.3.11.	amino acid metabolism.synthesis.glutamate family.arginine.carbamoyl-phosphate synthase	carbamoyl-phosphate synthase
+bin_R.13.1.2.3.21.	amino acid metabolism.synthesis.glutamate family.arginine.ornithine carbamoyltransferase	ornithine carbamoyltransferase
+bin_R.13.1.2.3.22.	amino acid metabolism.synthesis.glutamate family.arginine.argininosuccinate synthase	arginosuccinate synthase
+bin_R.13.1.2.3.23.	amino acid metabolism.synthesis.glutamate family.arginine.argininosuccinate lyase	argininosuccinate lyase
+bin_R.13.1.2.3.31.	amino acid metabolism.synthesis.glutamate family.arginine.aspartate racemase	aspartate racemase
+bin_R.13.1.3.	amino acid metabolism.synthesis.aspartate family	aspartate family
+bin_R.13.1.3.1.	amino acid metabolism.synthesis.aspartate family.asparagine	asparagine
+bin_R.13.1.3.1.1.	amino acid metabolism.synthesis.aspartate family.asparagine.asparagine synthetase	asparagine synthetase
+bin_R.13.1.3.2.	amino acid metabolism.synthesis.aspartate family.threonine	threonine
+bin_R.13.1.3.2.1.	amino acid metabolism.synthesis.aspartate family.threonine.threonine synthase	threonine synthase
+bin_R.13.1.3.4.	amino acid metabolism.synthesis.aspartate family.methionine	methionine
+bin_R.13.1.3.4.1.	amino acid metabolism.synthesis.aspartate family.methionine.cystathionine gamma-synthase	cystathionine gamma-synthase
+bin_R.13.1.3.4.2.	amino acid metabolism.synthesis.aspartate family.methionine.cystathionine beta-lyase	cystathionine beta-lyase
+bin_R.13.1.3.4.3.	amino acid metabolism.synthesis.aspartate family.methionine.methionine synthase	methionine synthase
+bin_R.13.1.3.4.11.	amino acid metabolism.synthesis.aspartate family.methionine.S-adenosylmethionine synthetase	S-adenosylmethionine synthetase
+bin_R.13.1.3.4.12.	amino acid metabolism.synthesis.aspartate family.methionine.homocysteine S-methyltransferase	homocysteine S-methyltransferase
+bin_R.13.1.3.4.13.	amino acid metabolism.synthesis.aspartate family.methionine.methionine S-methyltransferase	methionine S-methyltransferase
+bin_R.13.1.3.5.	amino acid metabolism.synthesis.aspartate family.lysine	lysine
+bin_R.13.1.3.5.1.	amino acid metabolism.synthesis.aspartate family.lysine.dihydrodipicolinate synthase	dihydrodipicolinate synthase
+bin_R.13.1.3.5.2.	amino acid metabolism.synthesis.aspartate family.lysine.dihydrodipicolinate reductase	dihydrodipicolinate reductase
+bin_R.13.1.3.5.3.	amino acid metabolism.synthesis.aspartate family.lysine.LL-diaminopimelic acid aminotransferase	LL-diaminopimelic acid aminotransferase
+bin_R.13.1.3.5.4.	amino acid metabolism.synthesis.aspartate family.lysine.diaminopimelate epimerase	diaminopimelate epimerase
+bin_R.13.1.3.5.5.	amino acid metabolism.synthesis.aspartate family.lysine.diaminopimelate decarboxylase	diaminopimelate decarboxylase
+bin_R.13.1.3.6.	amino acid metabolism.synthesis.aspartate family.misc	misc
+bin_R.13.1.3.6.1.	amino acid metabolism.synthesis.aspartate family.misc.homoserine	homoserine
+bin_R.13.1.3.6.1.1.	amino acid metabolism.synthesis.aspartate family.misc.homoserine.aspartate kinase	aspartate kinase
+bin_R.13.1.3.6.1.2.	amino acid metabolism.synthesis.aspartate family.misc.homoserine.aspartate semialdehyde dehydrogenase	aspartate semialdehyde dehydrogenase
+bin_R.13.1.3.6.1.3.	amino acid metabolism.synthesis.aspartate family.misc.homoserine.homoserine dehydrogenase	homoserine dehydrogenase
+bin_R.13.1.3.6.1.4.	amino acid metabolism.synthesis.aspartate family.misc.homoserine.homoserine kinase	homoserine kinase
+bin_R.13.1.3.6.1.10.	amino acid metabolism.synthesis.aspartate family.misc.homoserine.bifunctional aspartate kinase/homoserine dehydrogenase	bifunctional aspartate kinase/homoserine dehydrogenase
+bin_R.13.1.4.	amino acid metabolism.synthesis.branched chain group	branched chain group
+bin_R.13.1.4.1.	amino acid metabolism.synthesis.branched chain group.common	common
+bin_R.13.1.4.1.1.	amino acid metabolism.synthesis.branched chain group.common.acetolactate synthase	acetolactate synthase
+bin_R.13.1.4.1.2.	amino acid metabolism.synthesis.branched chain group.common.ketol-acid reductoisomerase	ketol-acid reductoisomerase
+bin_R.13.1.4.1.4.	amino acid metabolism.synthesis.branched chain group.common.branched-chain-amino-acid aminotransferase	branched-chain amino acid aminotransferase
+bin_R.13.1.4.4.	amino acid metabolism.synthesis.branched chain group.leucine specific	leucine specific
+bin_R.13.1.4.4.1.	amino acid metabolism.synthesis.branched chain group.leucine specific.2-isopropylmalate synthase	2-isopropylmalate synthase
+bin_R.13.1.4.4.3.	amino acid metabolism.synthesis.branched chain group.leucine specific.3-isopropylmalate dehydrogenase	3-isopropylmalate dehydrogenase
+bin_R.13.1.4.5.	amino acid metabolism.synthesis.branched chain group.isoleucine specific	isoleucine specific
+bin_R.13.1.4.5.1.	amino acid metabolism.synthesis.branched chain group.isoleucine specific.threonine ammonia-lyase	threonine ammonia-lyase
+bin_R.13.1.5.	amino acid metabolism.synthesis.serine-glycine-cysteine group	serine-glycine-cysteine group
+bin_R.13.1.5.1.	amino acid metabolism.synthesis.serine-glycine-cysteine group.serine	serine
+bin_R.13.1.5.1.1.	amino acid metabolism.synthesis.serine-glycine-cysteine group.serine.phosphoglycerate dehydrogenase	phosphoglycerate dehydrogenase
+bin_R.13.1.5.1.2.	amino acid metabolism.synthesis.serine-glycine-cysteine group.serine.phosphoserine aminotransferase	phosphoserine aminotransferase
+bin_R.13.1.5.1.3.	amino acid metabolism.synthesis.serine-glycine-cysteine group.serine.phosphoserine phosphatase	phosphoserine phosphatase
+bin_R.13.1.5.2.	amino acid metabolism.synthesis.serine-glycine-cysteine group.glycine	glycine
+bin_R.13.1.5.2.2.	amino acid metabolism.synthesis.serine-glycine-cysteine group.glycine.glycine transaminase	glycine transaminase
+bin_R.13.1.5.2.3.	amino acid metabolism.synthesis.serine-glycine-cysteine group.glycine.serine glyoxylate aminotransferase	serine glyoxylate aminotransferase
+bin_R.13.1.5.2.41.	amino acid metabolism.synthesis.serine-glycine-cysteine group.glycine.sarcosine oxidase	sarcosine oxidase
+bin_R.13.1.5.3.	amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine	cysteine
+bin_R.13.1.5.3.1.	amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.OASTL	OASTL
+bin_R.13.1.5.3.2.	amino acid metabolism.synthesis.serine-glycine-cysteine group.cysteine.SAT	SAT
+bin_R.13.1.6.	amino acid metabolism.synthesis.aromatic aa	aromatic aa
+bin_R.13.1.6.1.	amino acid metabolism.synthesis.aromatic aa.chorismate	chorismate
+bin_R.13.1.6.1.1.	amino acid metabolism.synthesis.aromatic aa.chorismate.3-deoxy-D-arabino-heptulosonate 7-phosphate synthase	3-deoxy-D-arabino-heptulosonate 7-phosphate synthase
+bin_R.13.1.6.1.2.	amino acid metabolism.synthesis.aromatic aa.chorismate.3-dehydroquinate synthase	3-dehydroquinate synthase
+bin_R.13.1.6.1.5.	amino acid metabolism.synthesis.aromatic aa.chorismate.shikimate kinase	shikimate kinase
+bin_R.13.1.6.1.6.	amino acid metabolism.synthesis.aromatic aa.chorismate.5-enolpyruvylshikimate-3-phosphate synthase	5-enolpyruvylshikimate-3-phosphate synthase
+bin_R.13.1.6.1.7.	amino acid metabolism.synthesis.aromatic aa.chorismate.chorismate synthase	chorismate synthase
+bin_R.13.1.6.1.10.	amino acid metabolism.synthesis.aromatic aa.chorismate.3-dehydroquinate dehydratase/shikimate dehydrogenase	dehydroquinate/shikimate dehydrogenase
+bin_R.13.1.6.2.	amino acid metabolism.synthesis.aromatic aa.phenylalanine and tyrosine	phenylalanine and tyrosine
+bin_R.13.1.6.2.1.	amino acid metabolism.synthesis.aromatic aa.phenylalanine and tyrosine.chorismate mutase	chorismate mutase
+bin_R.13.1.6.3.	amino acid metabolism.synthesis.aromatic aa.phenylalanine	phenylalanine
+bin_R.13.1.6.3.1.	amino acid metabolism.synthesis.aromatic aa.phenylalanine.arogenate dehydratase / prephenate dehydratase	arogenate dehydratase / prephenate dehydratase
+bin_R.13.1.6.4.	amino acid metabolism.synthesis.aromatic aa.tyrosine	tyrosine
+bin_R.13.1.6.4.1.	amino acid metabolism.synthesis.aromatic aa.tyrosine.arogenate dehydrogenase / prephenate dehydrogenase	arogenate dehydrogenase \& prephenate dehydrogenase
+bin_R.13.1.6.4.2.	amino acid metabolism.synthesis.aromatic aa.tyrosine.prephenate dehydrogenase	prephenate dehydrogenase
+bin_R.13.1.6.5.	amino acid metabolism.synthesis.aromatic aa.tryptophan	tryptophan
+bin_R.13.1.6.5.1.	amino acid metabolism.synthesis.aromatic aa.tryptophan.anthranilate synthase	anthranilate synthase
+bin_R.13.1.6.5.2.	amino acid metabolism.synthesis.aromatic aa.tryptophan.anthranilate phosphoribosyltransferase	anthranilate phosphoribosyltransferase
+bin_R.13.1.6.5.3.	amino acid metabolism.synthesis.aromatic aa.tryptophan.phosphoribosyanthranilate isomerase	phosphoribosyanthranilate isomerase
+bin_R.13.1.6.5.4.	amino acid metabolism.synthesis.aromatic aa.tryptophan.indole-3-glycerol phosphate synthase	indole-3-glycerol phosphate synthase
+bin_R.13.1.6.5.5.	amino acid metabolism.synthesis.aromatic aa.tryptophan.tryptophan synthase	tryptophan synthase
+bin_R.13.1.7.	amino acid metabolism.synthesis.histidine	histidine
+bin_R.13.1.7.1.	amino acid metabolism.synthesis.histidine.ATP phosphoribosyltransferase	ATP phosphoribosyl transferase
+bin_R.13.1.7.3.	amino acid metabolism.synthesis.histidine.phosphoribosyl-AMP cyclohydrolase	phosphoribosyl-AMP cyclohydrolase
+bin_R.13.1.7.4.	amino acid metabolism.synthesis.histidine.bifunctional phosphoribosyl-ATP pyrophosphatase / phosphoribosyl-AMP cyclohydrolase	N-5-phosphoribosyl-formimino-5-aminoimidazole-4-carboxamide ribonucleotide isomerase
+bin_R.13.1.7.5.	amino acid metabolism.synthesis.histidine.phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (BBM II)	Imidazole glycerol phosphate synthase
+bin_R.13.1.7.6.	amino acid metabolism.synthesis.histidine.glutamine amidotransferase/cyclase	imidazoleglycerol-phosphate dehydratase
+bin_R.13.1.7.8.	amino acid metabolism.synthesis.histidine.imidazoleglycerol-phosphate dehydratase	histidinol-phosphate synthase
+bin_R.13.1.7.9.	amino acid metabolism.synthesis.histidine.histidinol-phosphate aminotransferase	histidinol dehydrogenase
+bin_R.13.1.7.11.	amino acid metabolism.synthesis.histidine.histidinol dehydrogenase	ribose-phosphate diphosphokinase
+bin_R.13.2.	amino acid metabolism.degradation	degradation
+bin_R.13.2.1.	amino acid metabolism.degradation.central amino acid metabolism	central amino acid metabolism
+bin_R.13.2.1.2.	amino acid metabolism.degradation.central amino acid metabolism.aspartate	aspartate
+bin_R.13.2.2.	amino acid metabolism.degradation.glutamate family	glutamate family
+bin_R.13.2.2.1.	amino acid metabolism.degradation.glutamate family.glutamine	glutamine
+bin_R.13.2.2.2.	amino acid metabolism.degradation.glutamate family.proline	proline
+bin_R.13.2.2.3.	amino acid metabolism.degradation.glutamate family.arginine	arginine
+bin_R.13.2.3.	amino acid metabolism.degradation.aspartate family	aspartate family
+bin_R.13.2.3.1.	amino acid metabolism.degradation.aspartate family.asparagine	asparagine
+bin_R.13.2.3.1.1.	amino acid metabolism.degradation.aspartate family.asparagine.L-asparaginase	L-asparaginase
+bin_R.13.2.3.2.	amino acid metabolism.degradation.aspartate family.threonine	threonine
+bin_R.13.2.3.4.	amino acid metabolism.degradation.aspartate family.methionine	methionine
+bin_R.13.2.3.4.1.	amino acid metabolism.degradation.aspartate family.methionine.methionine gamma-lyase	methionine gamma-lyase
+bin_R.13.2.3.5.	amino acid metabolism.degradation.aspartate family.lysine	lysine
+bin_R.13.2.4.	amino acid metabolism.degradation.branched chain group	branched chain group
+bin_R.13.2.4.1.	amino acid metabolism.degradation.branched chain group.shared	shared
+bin_R.13.2.4.2.	amino acid metabolism.degradation.branched chain group.valine / isoleucine	val ile
+bin_R.13.2.4.3.	amino acid metabolism.degradation.branched chain group.valine	valine
+bin_R.13.2.4.4.	amino acid metabolism.degradation.branched chain group.leucine	leucine
+bin_R.13.2.4.5.	amino acid metabolism.degradation.branched chain group.isoleucine	isoleucine
+bin_R.13.2.5.	amino acid metabolism.degradation.serine-glycine-cysteine group	serine-glycine-cysteine group
+bin_R.13.2.5.1.	amino acid metabolism.degradation.serine-glycine-cysteine group.serine	serine
+bin_R.13.2.5.2.	amino acid metabolism.degradation.serine-glycine-cysteine group.glycine	glycine
+bin_R.13.2.5.3.	amino acid metabolism.degradation.serine-glycine-cysteine group.cysteine	cysteine
+bin_R.13.2.6.	amino acid metabolism.degradation.aromatic aa	aromatic aa
+bin_R.13.2.6.2.	amino acid metabolism.degradation.aromatic aa.tyrosine	tyrosine
+bin_R.13.2.6.3.	amino acid metabolism.degradation.aromatic aa.tryptophan	tryptophan
+bin_R.13.2.7.	amino acid metabolism.degradation.histidine	histidine
+bin_R.13.99.	amino acid metabolism.misc	misc
+bin_R.14.	S-assimilation	S-assimilation
+bin_R.14.1.	S-assimilation.APS	ATPS
+bin_R.14.2.	S-assimilation.APR	APR
+bin_R.14.3.	S-assimilation.sulfite redox	sulfite redox
+bin_R.14.5.	S-assimilation.sulfite oxidase	sulfite oxidase
+bin_R.14.15.	S-assimilation.AKN	AKN
+bin_R.15.	metal handling	metal handling
+bin_R.15.1.	metal handling.acquisition	acquisition
+bin_R.15.2.	metal handling.binding, chelation and storage	binding, chelation and storage
+bin_R.15.3.	metal handling.regulation	regulation
+bin_R.16.	secondary metabolism	secondary metabolism
+bin_R.16.1.	secondary metabolism.isoprenoids	isoprenoids
+bin_R.16.1.1.	secondary metabolism.isoprenoids.non-mevalonate pathway	non-mevalonate pathway
+bin_R.16.1.1.1.	secondary metabolism.isoprenoids.non-mevalonate pathway.DXS	DXS
+bin_R.16.1.1.2.	secondary metabolism.isoprenoids.non-mevalonate pathway.DXR	DXR
+bin_R.16.1.1.3.	secondary metabolism.isoprenoids.non-mevalonate pathway.CMS	CMS
+bin_R.16.1.1.4.	secondary metabolism.isoprenoids.non-mevalonate pathway.CMK	CMK
+bin_R.16.1.1.5.	secondary metabolism.isoprenoids.non-mevalonate pathway.MCS	MCS
+bin_R.16.1.1.6.	secondary metabolism.isoprenoids.non-mevalonate pathway.HDS	HDS
+bin_R.16.1.1.7.	secondary metabolism.isoprenoids.non-mevalonate pathway.HDR	HDR
+bin_R.16.1.1.10.	secondary metabolism.isoprenoids.non-mevalonate pathway.geranylgeranyl pyrophosphate synthase	geranylgeranyl pyrophosphate synthase
+bin_R.16.1.2.	secondary metabolism.isoprenoids.mevalonate pathway	mevalonate pathway
+bin_R.16.1.2.1.	secondary metabolism.isoprenoids.mevalonate pathway.acetyl-CoA C-acyltransferase	acetyl-CoA C-acyltransferase
+bin_R.16.1.2.2.	secondary metabolism.isoprenoids.mevalonate pathway.HMG-CoA synthase	HMG-CoA synthase
+bin_R.16.1.2.3.	secondary metabolism.isoprenoids.mevalonate pathway.HMG-CoA reductase	HMG-CoA reductase
+bin_R.16.1.2.4.	secondary metabolism.isoprenoids.mevalonate pathway.mevalonate kinase	mevalonate kinase
+bin_R.16.1.2.5.	secondary metabolism.isoprenoids.mevalonate pathway.phosphomevalonate kinase	phosphomevalonate kinase
+bin_R.16.1.2.6.	secondary metabolism.isoprenoids.mevalonate pathway.mevalonate diphosphate decarboxylase	mevalonate diphosphate decarboxylase
+bin_R.16.1.2.7.	secondary metabolism.isoprenoids.mevalonate pathway.isopentenyl pyrophosphate:dimethyllallyl pyrophosphate isomerase	isopentenyl pyrophosphate:dimethyllallyl pyrophosphate isomerase
+bin_R.16.1.2.8.	secondary metabolism.isoprenoids.mevalonate pathway.geranyl diphosphate synthase	geranyl diphosphate synthase
+bin_R.16.1.2.9.	secondary metabolism.isoprenoids.mevalonate pathway.farnesyl pyrophosphate synthetase	farnesyl pyrophosphate synthetase
+bin_R.16.1.3.	secondary metabolism.isoprenoids.tocopherol biosynthesis	tocopherol biosynthesis
+bin_R.16.1.3.1.	secondary metabolism.isoprenoids.tocopherol biosynthesis.hydroxyphenylpyruvate dioxygenase	hydroxyphenylpyruvate dioxygenase
+bin_R.16.1.3.2.	secondary metabolism.isoprenoids.tocopherol biosynthesis.homogentisate phytyltransferase	homogentisate phytyltransferase
+bin_R.16.1.3.3.	secondary metabolism.isoprenoids.tocopherol biosynthesis.MPBQ/MSBQ methyltransferase	MPBQ/MSBQ methyltransferase
+bin_R.16.1.3.4.	secondary metabolism.isoprenoids.tocopherol biosynthesis.tocopherol cyclase	tocopherol cyclase
+bin_R.16.1.3.5.	secondary metabolism.isoprenoids.tocopherol biosynthesis.tocopherol methyltransferase	tocopherol methyltransferase
+bin_R.16.1.4.	secondary metabolism.isoprenoids.carotenoids	carotenoids
+bin_R.16.1.4.1.	secondary metabolism.isoprenoids.carotenoids.phytoene synthase	phytoene synthase
+bin_R.16.1.4.2.	secondary metabolism.isoprenoids.carotenoids.phytoene dehydrogenase	phytoene dehydrogenase
+bin_R.16.1.4.3.	secondary metabolism.isoprenoids.carotenoids.zeta-carotene desaturase	zeta-carotene desaturase
+bin_R.16.1.4.4.	secondary metabolism.isoprenoids.carotenoids.lycopene epsilon cyclase	lycopene epsilon cyclase
+bin_R.16.1.4.5.	secondary metabolism.isoprenoids.carotenoids.lycopene beta cyclase	lycopene beta cyclase
+bin_R.16.1.4.6.	secondary metabolism.isoprenoids.carotenoids.carotenoid beta ring hydroxylase	carotenoid beta ring hydroxylase
+bin_R.16.1.4.8.	secondary metabolism.isoprenoids.carotenoids.carotenoid isomerase	carotenoid isomerase
+bin_R.16.1.4.10.	secondary metabolism.isoprenoids.carotenoids.carotenoid cleavage dioxygenase	carotenoid cleavage dioxygenase
+bin_R.16.1.4.21.	secondary metabolism.isoprenoids.carotenoids.violaxanthin de-epoxidase	violaxanthin de-epoxidase
+bin_R.16.1.5.	secondary metabolism.isoprenoids.terpenoids	terpenoids
+bin_R.16.2.	secondary metabolism.phenylpropanoids	phenylpropanoids
+bin_R.16.2.1.	secondary metabolism.phenylpropanoids.lignin biosynthesis	lignin biosynthesis
+bin_R.16.2.1.1.	secondary metabolism.phenylpropanoids.lignin biosynthesis.PAL	PAL
+bin_R.16.2.1.2.	secondary metabolism.phenylpropanoids.lignin biosynthesis.C4H	C4H
+bin_R.16.2.1.3.	secondary metabolism.phenylpropanoids.lignin biosynthesis.4CL	4CL
+bin_R.16.2.1.4.	secondary metabolism.phenylpropanoids.lignin biosynthesis.HCT	HCT
+bin_R.16.2.1.5.	secondary metabolism.phenylpropanoids.lignin biosynthesis.C3H	C3H
+bin_R.16.2.1.6.	secondary metabolism.phenylpropanoids.lignin biosynthesis.CCoAOMT	CCoAOMT
+bin_R.16.2.1.7.	secondary metabolism.phenylpropanoids.lignin biosynthesis.CCR1	CCR1
+bin_R.16.2.1.8.	secondary metabolism.phenylpropanoids.lignin biosynthesis.F5H	F5H
+bin_R.16.2.1.9.	secondary metabolism.phenylpropanoids.lignin biosynthesis.COMT	COMT
+bin_R.16.2.1.10.	secondary metabolism.phenylpropanoids.lignin biosynthesis.CAD	CAD
+bin_R.16.4.	secondary metabolism.N misc	N misc
+bin_R.16.4.1.	secondary metabolism.N misc.alkaloid-like	alkaloid-like
+bin_R.16.4.2.	secondary metabolism.N misc.betaine	betaine
+bin_R.16.4.2.1.	secondary metabolism.N misc.betaine.betaine-aldehyde dehydrogenase	betaine-aldehyde dehydrogenase
+bin_R.16.4.3.	secondary metabolism.N misc.cyanogenic glycosides	cyanogenic glycosides
+bin_R.16.4.3.1.	secondary metabolism.N misc.cyanogenic glycosides.cyanase	cyanogenic glycosides
+bin_R.16.5.	secondary metabolism.sulfur-containing	sulfur-containing
+bin_R.16.5.1.	secondary metabolism.sulfur-containing.glucosinolates	glucosinolates
+bin_R.16.5.1.1.	secondary metabolism.sulfur-containing.glucosinolates.synthesis	synthesis
+bin_R.16.5.1.1.1.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic	aliphatic
+bin_R.16.5.1.1.1.1.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.branched-chain amino acid aminotransferase  (BCAT/MAAT)	branched-chain amino acid aminotransferase  (BCAT/MAAT)
+bin_R.16.5.1.1.1.2.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.methylthioalkylmalate synthase (MAM)	methylthioalkylmalate synthase (MAM)
+bin_R.16.5.1.1.1.3.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.methylthioalkylmalate isomerase large subunit (MAM-IL)	methylthioalkylmalate isomerase large subunit (MAM-IL)
+bin_R.16.5.1.1.1.4.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.methylthioalkylmalate isomerase small subunit (MAM-IS)	methylthioalkylmalate isomerase small subunit (MAM-IS)
+bin_R.16.5.1.1.1.5.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.methylthioalkylmalate dehydrogenase (MAM-DH)	methylthioalkylmalate dehydrogenase (MAM-D)
+bin_R.16.5.1.1.1.6.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.CYP79F1/F2 monooxygenase	CYP79F1/F2 monooxygenase
+bin_R.16.5.1.1.1.7.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.CYP83A1 phenylacetaldoxime monooxygenase	CYP83A1 phenylacetaldoxime monooxygenase
+bin_R.16.5.1.1.1.8.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.UDP-glycosyltransferase	UDP-glycosyltransferase
+bin_R.16.5.1.1.1.9.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.sulfotransferase	sulfotransferase
+bin_R.16.5.1.1.1.10.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.flavin-containing monooxygenase	flavin-containing monooxygenase
+bin_R.16.5.1.1.1.11.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.glucosinolate 2-oxoglutarate-dependent dioxygenase (AOP)	glucosinolate 2-oxoglutarate-dependent dioxygenase (AOP)
+bin_R.16.5.1.1.1.12.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.benzoate-CoA ligase	benzoate-CoA ligase
+bin_R.16.5.1.1.1.13.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aliphatic.2-oxoglutarate-dependent dioxygenase	2-oxoglutarate-dependent dioxygenase
+bin_R.16.5.1.1.2.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aromatic	aromatic
+bin_R.16.5.1.1.2.1.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.aromatic.CYP79A2 monooxygenase	CYP79A2 monooxygenase
+bin_R.16.5.1.1.3.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.indole	indole
+bin_R.16.5.1.1.3.1.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.indole.CYP79B2 monooxygenase	CYP79B2 monooxygenase
+bin_R.16.5.1.1.3.2.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.indole.CYP79B3 monooxygenase	CYP79B3 monooxygenase
+bin_R.16.5.1.1.3.3.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.indole.indole-3-methyl-desulfoglucosinolate sulfotransferase	indole-3-methyl-desulfoglucosinolate sulfotransferase
+bin_R.16.5.1.1.3.4.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.indole.cytochrome P450 monooxygenase	cytochrome P450 monooxygenase
+bin_R.16.5.1.1.4.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.shared	shared
+bin_R.16.5.1.1.4.1.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.shared.CYP83B1 phenylacetaldoxime monooxygenase	CYP83B1 phenylacetaldoxime monooxygenase
+bin_R.16.5.1.1.4.2.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.shared.alkylthiohydroximate C-S lyase	alkylthiohydroximate C-S lyase
+bin_R.16.5.1.1.4.3.	secondary metabolism.sulfur-containing.glucosinolates.synthesis.shared.UDP-glycosyltransferase	UDP-glycosyltransferase
+bin_R.16.5.1.2.	secondary metabolism.sulfur-containing.glucosinolates.regulation	regulation
+bin_R.16.5.1.2.1.	secondary metabolism.sulfur-containing.glucosinolates.regulation.aliphatic	aliphatic
+bin_R.16.5.1.2.3.	secondary metabolism.sulfur-containing.glucosinolates.regulation.indole	indole
+bin_R.16.5.1.3.	secondary metabolism.sulfur-containing.glucosinolates.degradation	degradation
+bin_R.16.5.1.3.1.	secondary metabolism.sulfur-containing.glucosinolates.degradation.myrosinase	myrosinase
+bin_R.16.5.1.3.1.1.	secondary metabolism.sulfur-containing.glucosinolates.degradation.myrosinase.TGG	TGG
+bin_R.16.5.1.3.2.	secondary metabolism.sulfur-containing.glucosinolates.degradation.nitrilespecifier protein	nitrilespecifier protein
+bin_R.16.5.1.3.2.1.	secondary metabolism.sulfur-containing.glucosinolates.degradation.nitrilespecifier protein.epithiospecifier protein	epithiospecifier protein
+bin_R.16.5.1.3.3.	secondary metabolism.sulfur-containing.glucosinolates.degradation.nitrilase	nitrilase
+bin_R.16.5.1.4.	secondary metabolism.sulfur-containing.glucosinolates.transport	transport
+bin_R.16.5.1.4.1.	secondary metabolism.sulfur-containing.glucosinolates.transport.aliphatic	aliphatic
+bin_R.16.5.99.	secondary metabolism.sulfur-containing.misc	misc
+bin_R.16.5.99.1.	secondary metabolism.sulfur-containing.misc.alliinase	alliinase
+bin_R.16.7.	secondary metabolism.wax	wax
+bin_R.16.8.	secondary metabolism.flavonoids	flavonoids
+bin_R.16.8.1.	secondary metabolism.flavonoids.anthocyanins	anthocyanins
+bin_R.16.8.1.1.	secondary metabolism.flavonoids.anthocyanins.leucocyanidin dioxygenase	leucocyanidin dioxygenase
+bin_R.16.8.1.12.	secondary metabolism.flavonoids.anthocyanins.anthocyanidin 3-O-glucosyltransferase	anthocyanidin 3-O-glucosyltransferase
+bin_R.16.8.1.21.	secondary metabolism.flavonoids.anthocyanins.anthocyanin 5-aromatic acyltransferase	anthocyanin 5-aromatic acyltransferase
+bin_R.16.8.2.	secondary metabolism.flavonoids.chalcones	chalcones
+bin_R.16.8.2.1.	secondary metabolism.flavonoids.chalcones.naringenin-chalcone synthase	naringenin-chalcone synthase
+bin_R.16.8.2.2.	secondary metabolism.flavonoids.chalcones.chalcone isomerase	chalcone isomerase
+bin_R.16.8.3.	secondary metabolism.flavonoids.dihydroflavonols	dihydroflavonols
+bin_R.16.8.3.1.	secondary metabolism.flavonoids.dihydroflavonols.dihydroflavonol 4-reductase	dihydroflavonol 4-reductase
+bin_R.16.8.3.2.	secondary metabolism.flavonoids.dihydroflavonols.flavanone 3-hydroxylase	flavanone 3-hydroxylase
+bin_R.16.8.3.3.	secondary metabolism.flavonoids.dihydroflavonols.flavonoid 3'-monooxygenase	flavonoid 3-monooxygenase
+bin_R.16.8.4.	secondary metabolism.flavonoids.flavonols	flavonols
+bin_R.16.8.5.	secondary metabolism.flavonoids.isoflavonols	isoflavones
+bin_R.16.8.5.1.	secondary metabolism.flavonoids.isoflavonols.isoflavone reductase	isoflavone reductase
+bin_R.16.10.	secondary metabolism.simple phenols	simple phenols
+bin_R.16.99.	secondary metabolism.unspecified	unspecified
+bin_R.17.	hormone metabolism	Phytohormones metabolism
+bin_R.17.1.	hormone metabolism.abscisic acid	abscisic acid
+bin_R.17.1.1.	hormone metabolism.abscisic acid.synthesis-degradation	synthesis-degradation
+bin_R.17.1.1.1.	hormone metabolism.abscisic acid.synthesis-degradation.synthesis	synthesis
+bin_R.17.1.1.1.1.	hormone metabolism.abscisic acid.synthesis-degradation.synthesis.zeaxanthin epoxidase	zeaxanthin epoxidase
+bin_R.17.1.1.1.10.	hormone metabolism.abscisic acid.synthesis-degradation.synthesis.9-cis-epoxycarotenoid dioxygenase	9-cis-epoxycarotenoid dioxygenase
+bin_R.17.1.1.1.11.	hormone metabolism.abscisic acid.synthesis-degradation.synthesis.short chain alcohol dehydrogenmase (ABA2)	short chain alcohol dehydrogenmase (ABA2)
+bin_R.17.1.1.1.12.	hormone metabolism.abscisic acid.synthesis-degradation.synthesis.abscisic aldehyde oxidase	abscisic aldehyde oxidase
+bin_R.17.1.1.2.	hormone metabolism.abscisic acid.synthesis-degradation.degradation	degradation
+bin_R.17.1.1.2.1.	hormone metabolism.abscisic acid.synthesis-degradation.degradation.8-hydroxylase	8-hydroxylase
+bin_R.17.1.2.	hormone metabolism.abscisic acid.signal transduction	signal transduction
+bin_R.17.1.3.	hormone metabolism.abscisic acid.induced-regulated-responsive-activated	induced-regulated-responsive-activated
+bin_R.17.2.	hormone metabolism.auxin	auxin
+bin_R.17.2.1.	hormone metabolism.auxin.synthesis-degradation	synthesis-degradation
+bin_R.17.2.2.	hormone metabolism.auxin.signal transduction	signal transduction
+bin_R.17.2.3.	hormone metabolism.auxin.induced-regulated-responsive-activated	induced-regulated-responsive-activated
+bin_R.17.3.	hormone metabolism.brassinosteroid	brassinosteroid
+bin_R.17.3.1.	hormone metabolism.brassinosteroid.synthesis-degradation	synthesis-degradation
+bin_R.17.3.1.1.	hormone metabolism.brassinosteroid.synthesis-degradation.BRs	BRs
+bin_R.17.3.1.1.1.	hormone metabolism.brassinosteroid.synthesis-degradation.BRs.DET2	DET2
+bin_R.17.3.1.1.2.	hormone metabolism.brassinosteroid.synthesis-degradation.BRs.DWF4	DWF4
+bin_R.17.3.1.1.3.	hormone metabolism.brassinosteroid.synthesis-degradation.BRs.CPD	CPD
+bin_R.17.3.1.1.4.	hormone metabolism.brassinosteroid.synthesis-degradation.BRs.BR6OX	BR6OX
+bin_R.17.3.1.1.5.	hormone metabolism.brassinosteroid.synthesis-degradation.BRs.metabolic regulation	metabolic regulation
+bin_R.17.3.1.1.99.	hormone metabolism.brassinosteroid.synthesis-degradation.BRs.other	other
+bin_R.17.3.1.2.	hormone metabolism.brassinosteroid.synthesis-degradation.sterols	sterols
+bin_R.17.3.1.2.1.	hormone metabolism.brassinosteroid.synthesis-degradation.sterols.SMT1	SMT1
+bin_R.17.3.1.2.2.	hormone metabolism.brassinosteroid.synthesis-degradation.sterols.SMT2	SMT2
+bin_R.17.3.1.2.3.	hormone metabolism.brassinosteroid.synthesis-degradation.sterols.CYP51	CYP51
+bin_R.17.3.1.2.4.	hormone metabolism.brassinosteroid.synthesis-degradation.sterols.FACKEL	FACKEL
+bin_R.17.3.1.2.5.	hormone metabolism.brassinosteroid.synthesis-degradation.sterols.HYD1	HYD1
+bin_R.17.3.1.2.6.	hormone metabolism.brassinosteroid.synthesis-degradation.sterols.DWF7	DWF7
+bin_R.17.3.1.2.7.	hormone metabolism.brassinosteroid.synthesis-degradation.sterols.DWF5	DWF5
+bin_R.17.3.1.2.8.	hormone metabolism.brassinosteroid.synthesis-degradation.sterols.DWF1	DWF1
+bin_R.17.3.1.2.99.	hormone metabolism.brassinosteroid.synthesis-degradation.sterols.other	other
+bin_R.17.3.2.	hormone metabolism.brassinosteroid.signal transduction	signal transduction
+bin_R.17.3.2.1.	hormone metabolism.brassinosteroid.signal transduction.BRI	BRI
+bin_R.17.3.2.2.	hormone metabolism.brassinosteroid.signal transduction.BZR	BZR
+bin_R.17.3.2.99.	hormone metabolism.brassinosteroid.signal transduction.other	other
+bin_R.17.3.3.	hormone metabolism.brassinosteroid.induced-regulated-responsive-activated	induced-regulated-responsive-activated
+bin_R.17.4.	hormone metabolism.cytokinin	cytokinin
+bin_R.17.4.1.	hormone metabolism.cytokinin.synthesis-degradation	synthesis-degradation
+bin_R.17.4.2.	hormone metabolism.cytokinin.signal transduction	signal transduction
+bin_R.17.5.	hormone metabolism.ethylene	ethylene
+bin_R.17.5.1.	hormone metabolism.ethylene.synthesis-degradation	synthesis-degradation
+bin_R.17.5.1.1.	hormone metabolism.ethylene.synthesis-degradation.1-aminocyclopropane-1-carboxylate synthase	1-aminocyclopropane-1-carboxylate synthase
+bin_R.17.5.1.2.	hormone metabolism.ethylene.synthesis-degradation.1-aminocyclopropane-1-carboxylate oxidase	1-aminocyclopropane-1-carboxylate oxidase
+bin_R.17.5.2.	hormone metabolism.ethylene.signal transduction	signal transduction
+bin_R.17.5.3.	hormone metabolism.ethylene.induced-regulated-responsive-activated	induced-regulated-responsive-activated
+bin_R.17.6.	hormone metabolism.gibberelin	gibberelin
+bin_R.17.6.1.	hormone metabolism.gibberelin.synthesis-degradation	synthesis-degradation
+bin_R.17.6.1.1.	hormone metabolism.gibberelin.synthesis-degradation.copalyl diphosphate synthase	copalyl diphosphate synthase
+bin_R.17.6.1.2.	hormone metabolism.gibberelin.synthesis-degradation.ent-kaurene synthase	ent-kaurene synthase
+bin_R.17.6.1.3.	hormone metabolism.gibberelin.synthesis-degradation.ent-kaurene oxidase	ent-kaurene oxidase
+bin_R.17.6.1.4.	hormone metabolism.gibberelin.synthesis-degradation.ent-kaurenoic acid hydroxylase/oxygenase	ent-kaurenoic acid hydroxylase/oxygenase
+bin_R.17.6.1.11.	hormone metabolism.gibberelin.synthesis-degradation.GA20 oxidase	GA20 oxidase
+bin_R.17.6.1.12.	hormone metabolism.gibberelin.synthesis-degradation.GA3 oxidase	GA3 oxidase
+bin_R.17.6.1.13.	hormone metabolism.gibberelin.synthesis-degradation.GA2 oxidase	GA2 oxidase
+bin_R.17.6.2.	hormone metabolism.gibberelin.signal transduction	signal transduction
+bin_R.17.6.3.	hormone metabolism.gibberelin.induced-regulated-responsive-activated	induced-regulated-responsive-activated
+bin_R.17.7.	hormone metabolism.jasmonate	jasmonate
+bin_R.17.7.1.	hormone metabolism.jasmonate.synthesis-degradation	synthesis-degradation
+bin_R.17.7.1.1.	hormone metabolism.jasmonate.synthesis-degradation.lipases	lipases
+bin_R.17.7.1.2.	hormone metabolism.jasmonate.synthesis-degradation.lipoxygenase	lipoxygenase
+bin_R.17.7.1.3.	hormone metabolism.jasmonate.synthesis-degradation.allene oxidase synthase	allene oxidase synthase
+bin_R.17.7.1.4.	hormone metabolism.jasmonate.synthesis-degradation.allene oxidase cyclase	allene oxidase cyclase
+bin_R.17.7.1.5.	hormone metabolism.jasmonate.synthesis-degradation.12-oxophytodienoate reductase 3	12-Oxo-PDA-reductase
+bin_R.17.7.1.10.	hormone metabolism.jasmonate.synthesis-degradation.jasmonate-O-methyltransferase	jasmonate-O-methyltransferase
+bin_R.17.7.2.	hormone metabolism.jasmonate.signal transduction	signal transduction
+bin_R.17.7.3.	hormone metabolism.jasmonate.induced-regulated-responsive-activated	induced-regulated-responsive-activated
+bin_R.17.8.	hormone metabolism.salicylic acid	salicylic acid
+bin_R.17.8.1.	hormone metabolism.salicylic acid.synthesis-degradation	synthesis-degradation
+bin_R.17.8.2.	hormone metabolism.salicylic acid.signal transduction	signal transduction
+bin_R.18.	Co-factor and vitamine metabolism	Co-factor metabolism
+bin_R.18.1.	Co-factor and vitamine metabolism.molybdenum cofactor	molybdenum cofactor
+bin_R.18.1.1.	Co-factor and vitamine metabolism.molybdenum cofactor.gephyrin	gephyrin
+bin_R.18.2.	Co-factor and vitamine metabolism.thiamine	thiamine
+bin_R.18.2.1.	Co-factor and vitamine metabolism.thiamine.thiamine diphosphokinase	thiamine diphosphokinase
+bin_R.18.2.2.	Co-factor and vitamine metabolism.thiamine.hydroxymethylpyrimidine kinase	hydroxymethylpyrimidine kinase
+bin_R.18.3.	Co-factor and vitamine metabolism.riboflavin	riboflavin
+bin_R.18.3.1.	Co-factor and vitamine metabolism.riboflavin.GTP cyclohydrolase II	GTP cyclohydrolase II
+bin_R.18.3.2.	Co-factor and vitamine metabolism.riboflavin.riboflavin synthase	riboflavin synthase
+bin_R.18.4.	Co-factor and vitamine metabolism.pantothenate	pantothenate
+bin_R.18.4.1.	Co-factor and vitamine metabolism.pantothenate.branched-chain amino acid aminotransferase	branched-chain amino acid aminotransferase
+bin_R.18.4.2.	Co-factor and vitamine metabolism.pantothenate.3-methyl-2-oxobutanoate hydroxymethyltransferase (KPHMT,PANB)	3-methyl-2-oxobutanoate hydroxymethyltransferase (KPHMT,PANB)
+bin_R.18.4.3.	Co-factor and vitamine metabolism.pantothenate.2-dehydropantoate 2-reductase	2-dehydropantoate 2-reductase
+bin_R.18.4.4.	Co-factor and vitamine metabolism.pantothenate.pantoate beta-alanine ligase (PANC, pantothenate synthetase)	pantoate beta-alanine ligase (PANC, pantothenate synthetase)
+bin_R.18.4.5.	Co-factor and vitamine metabolism.pantothenate.pantothenate kinase (PANK)	pantothenate kinase (PANK)
+bin_R.18.4.6.	Co-factor and vitamine metabolism.pantothenate.phosphopantothenoylcysteine synthetase (PPCS)	phosphopantothenoylcysteine synthetase (PPCS)
+bin_R.18.4.7.	Co-factor and vitamine metabolism.pantothenate.phosphopantothenoylcysteine decarboxylase (PPCDC)	phosphopantothenoylcysteine decarboxylase (PPCDC)
+bin_R.18.4.8.	Co-factor and vitamine metabolism.pantothenate.pantetheine-phosphate adenylyltransferase  (PPAT)	pantetheine-phosphate adenylyltransferase  (PPAT)
+bin_R.18.4.9.	Co-factor and vitamine metabolism.pantothenate.dephospho-CoA kinase (DPCK)	dephospho-CoA kinase (DPCK)
+bin_R.18.5.	Co-factor and vitamine metabolism.folate and vitamine K	folate & vitamine K
+bin_R.18.5.2.	Co-factor and vitamine metabolism.folate and vitamine K.vitamine K	vitamine K
+bin_R.18.5.2.1.	Co-factor and vitamine metabolism.folate and vitamine K.vitamine K.isochorismate synthase	isochorismate synthase
+bin_R.18.5.2.4.	Co-factor and vitamine metabolism.folate and vitamine K.vitamine K.succinyl-benzoyl CoA synthetase	o-Succinyl-BenzoylCoa Synthetase
+bin_R.18.5.2.5.	Co-factor and vitamine metabolism.folate and vitamine K.vitamine K.naphthoate synthase	naphthoate synthase
+bin_R.18.5.2.7.	Co-factor and vitamine metabolism.folate and vitamine K.vitamine K.DHNA phytyltransferase	DHNA Phytyltransferase
+bin_R.18.5.2.8.	Co-factor and vitamine metabolism.folate and vitamine K.vitamine K.2-phytyl-1,4-naphthoquinone methyltransferase	2-phytyl-1,4-naphthoquinone methyltransferase
+bin_R.18.5.2.8.1.	Co-factor and vitamine metabolism.folate and vitamine K.vitamine K.2-phytyl-1,4-naphthoquinone methyltransferase.PHYLLO	PHYLLO
+bin_R.18.6.	Co-factor and vitamine metabolism.biotin	biotin
+bin_R.18.6.1.	Co-factor and vitamine metabolism.biotin.biotin synthase	biotin synthase
+bin_R.18.7.	Co-factor and vitamine metabolism.iron-sulphur clusters	iron-sulphur clusters
+bin_R.18.8.	Co-factor and vitamine metabolism.ubiquinone	ubiquinone
+bin_R.18.8.1.	Co-factor and vitamine metabolism.ubiquinone.hexaprenyldihydroxybenzoate methyltransferase	hexaprenyldihydroxybenzoate methyltransferase
+bin_R.18.10.	Co-factor and vitamine metabolism.coenzyme M	coenzyme M
+bin_R.18.10.3.	Co-factor and vitamine metabolism.coenzyme M.2-hydroxyacid dehydrogenase	2-hydroxyacid dehydrogenase
+bin_R.18.11.	Co-factor and vitamine metabolism.lipoic acid	lipoic acid
+bin_R.18.12.	Co-factor and vitamine metabolism.NADH kinase	NADH kinase
+bin_R.18.13.	Co-factor and vitamine metabolism.isochorismatase	isochorismatase
+bin_R.19.	tetrapyrrole synthesis	tetrapyrrole synthesis
+bin_R.19.1.	tetrapyrrole synthesis.glu-tRNA synthetase	glu-tRNA synthetase
+bin_R.19.2.	tetrapyrrole synthesis.glu-tRNA reductase	glu-tRNA reductase
+bin_R.19.3.	tetrapyrrole synthesis.GSA	GSA
+bin_R.19.4.	tetrapyrrole synthesis.ALA dehydratase	ALA dehydratase
+bin_R.19.5.	tetrapyrrole synthesis.porphobilinogen deaminase	porphobilinogen deaminase
+bin_R.19.6.	tetrapyrrole synthesis.uroporphyrinogen III synthase	uroporphyrinogen III synthase
+bin_R.19.7.	tetrapyrrole synthesis.uroporphyrinogen decarboxylase	uroporphyrinogen decarboxylase
+bin_R.19.8.	tetrapyrrole synthesis.coproporphyrinogen III oxidase	coproporphyrinogen III oxidase
+bin_R.19.9.	tetrapyrrole synthesis.protoporphyrin IX oxidase	protoporphyrin IX oxidase
+bin_R.19.10.	tetrapyrrole synthesis.magnesium chelatase	magnesium chelatase
+bin_R.19.11.	tetrapyrrole synthesis.magnesium protoporphyrin IX methyltransferase	magnesium protoporphyrin IX methyltransferase
+bin_R.19.12.	tetrapyrrole synthesis.magnesium-protoporphyrin IX monomethyl ester (oxidative) cyclase	magnesium-protoporphyrin IX monomethyl ester cyclase
+bin_R.19.13.	tetrapyrrole synthesis.divinyl chlorophyllide-a 8-vinyl-reductase	divinyl chlorophyllide-a 8-vinyl-reductase
+bin_R.19.14.	tetrapyrrole synthesis.protochlorophyllide reductase	protochlorophyllide reductase
+bin_R.19.15.	tetrapyrrole synthesis.chlorophyll synthase	chlorophyll synthase
+bin_R.19.16.	tetrapyrrole synthesis.chlorophyll b synthase	chlorophyll b synthase
+bin_R.19.20.	tetrapyrrole synthesis.ferrochelatase	ferrochelatase
+bin_R.19.21.	tetrapyrrole synthesis.heme oxygenase	heme oxygenase
+bin_R.19.30.	tetrapyrrole synthesis.urogen III methylase	uroporphyrin-III C-methyltransferase
+bin_R.19.32.	tetrapyrrole synthesis.sirohydrochlorin ferrochelatase	sirohydrochlorin ferrochelatase
+bin_R.19.40.	tetrapyrrole synthesis.regulation	regulation
+bin_R.19.99.	tetrapyrrole synthesis.unspecified	unspecified
+bin_R.20.	stress	Stress response
+bin_R.20.1.	stress.biotic	biotic
+bin_R.20.1.1.	stress.biotic.respiratory burst	respiratory burst
+bin_R.20.1.2.	stress.biotic.receptors	receptors
+bin_R.20.1.2.1.	stress.biotic.receptors.CC-NBS-LRR	CC-NBS-LRR
+bin_R.20.1.2.2.	stress.biotic.receptors.TIR-NBS-LRR	TIR-NBS-LRR
+bin_R.20.1.3.	stress.biotic.signalling	signalling
+bin_R.20.1.3.1.	stress.biotic.signalling.MLO-like	MLO-like
+bin_R.20.1.4.	stress.biotic.kinases	kinases
+bin_R.20.1.5.	stress.biotic.regulation of transcription	regulation of transcription
+bin_R.20.1.6.	stress.biotic.heat shock proteins	HSP
+bin_R.20.1.7.	stress.biotic.PR-proteins	PR-proteins
+bin_R.20.1.7.1.	stress.biotic.PR-proteins.PR1 (antifungal)	PR1 (antifungal)
+bin_R.20.1.7.2.	stress.biotic.PR-proteins.PR2 (endo-beta-1,3-glucanases)	PR2 (endo-beta-1,3-glucanases)
+bin_R.20.1.7.3.	stress.biotic.PR-proteins.PR3/4/8/11 (chitinases and chitin binding proteins)	PR3/4/8/11 (chitinases and chitin binding proteins)
+bin_R.20.1.7.6.	stress.biotic.PR-proteins.PR6 (proteinase inhibitors)	proteinase inhibitors
+bin_R.20.1.7.6.1.	stress.biotic.PR-proteins.PR6 (proteinase inhibitors).trypsin inhibitor	trypsin inhibitor
+bin_R.20.1.7.12.	stress.biotic.PR-proteins.PR12 (plant defensins)	plant defensins
+bin_R.20.1.7.13.	stress.biotic.PR-proteins.PR13 (thionins)	PR-proteins.PR13 (thionins)
+bin_R.20.1.8.	stress.biotic.secondary metabolites	secondary metabolites
+bin_R.20.1.99.	stress.biotic.misc	misc
+bin_R.20.2.	stress.abiotic	abiotic
+bin_R.20.2.1.	stress.abiotic.heat	heat
+bin_R.20.2.2.	stress.abiotic.cold	cold
+bin_R.20.2.3.	stress.abiotic.drought/salt	drought/salt
+bin_R.20.2.4.	stress.abiotic.touch/wounding	touch/wounding
+bin_R.20.2.5.	stress.abiotic.light	light
+bin_R.20.2.99.	stress.abiotic.unspecified	unspecified
+bin_R.21.	redox	Redox metabolism
+bin_R.21.1.	redox.thioredoxin	thioredoxin
+bin_R.21.2.	redox.ascorbate and glutathione	ascorbate and glutathione
+bin_R.21.2.1.	redox.ascorbate and glutathione.ascorbate	ascorbate
+bin_R.21.2.1.1.	redox.ascorbate and glutathione.ascorbate.GME	GME
+bin_R.21.2.1.2.	redox.ascorbate and glutathione.ascorbate.GDP-L-galactose phosphorylase	GDP-L-galactose-hexose-1-phosphate guanyltransferase
+bin_R.21.2.1.3.	redox.ascorbate and glutathione.ascorbate.L-galactose-1-phosphate phosphatase	L-galactose-1-phosphate phosphatase
+bin_R.21.2.1.4.	redox.ascorbate and glutathione.ascorbate.L-galactose dehydrogenase	L-galactose dehydrogenase
+bin_R.21.2.1.5.	redox.ascorbate and glutathione.ascorbate.L-galactono-1,4-lactone dehydrogenase	L-Galactono-1,4-lactone dehydrogenase
+bin_R.21.2.2.	redox.ascorbate and glutathione.glutathione	glutathione
+bin_R.21.3.	redox.heme	heme
+bin_R.21.4.	redox.glutaredoxins	glutaredoxins
+bin_R.21.5.	redox.peroxiredoxin	peroxiredoxin
+bin_R.21.5.1.	redox.peroxiredoxin.BAS1	BAS1
+bin_R.21.5.2.	redox.peroxiredoxin.PER1	PER1
+bin_R.21.6.	redox.dismutases and catalases	dismutases and catalases
+bin_R.21.99.	redox.misc	misc
+bin_R.22.	polyamine metabolism	polyamine metabolism
+bin_R.22.1.	polyamine metabolism.synthesis	synthesis
+bin_R.22.1.2.	polyamine metabolism.synthesis.SAM decarboxylase	SAM decarboxylase
+bin_R.22.1.3.	polyamine metabolism.synthesis.arginine decarboxylase	arginine decarboxylase
+bin_R.22.1.4.	polyamine metabolism.synthesis.agmatine deiminase	agmatine deiminase
+bin_R.22.1.5.	polyamine metabolism.synthesis.N-carbamoylputrescine amidohydrolase	N-carbamoylputrescine amidohydrolase
+bin_R.22.1.6.	polyamine metabolism.synthesis.spermidine synthase	spermidine synthase
+bin_R.22.1.7.	polyamine metabolism.synthesis.spermine synthase	spermine synthase
+bin_R.22.2.	polyamine metabolism.degradation	degradation
+bin_R.22.2.1.	polyamine metabolism.degradation.polyamin oxidase	polyamin oxidase
+bin_R.23.	nucleotide metabolism	nucleotide metabolism
+bin_R.23.1.	nucleotide metabolism.synthesis	synthesis
+bin_R.23.1.1.	nucleotide metabolism.synthesis.pyrimidine	pyrimidine
+bin_R.23.1.1.1.	nucleotide metabolism.synthesis.pyrimidine.carbamoyl phosphate synthetase	carbamoyl phosphate synthetase
+bin_R.23.1.1.2.	nucleotide metabolism.synthesis.pyrimidine.aspartate transcarbamoylase	aspartate transcarbamoylase
+bin_R.23.1.1.3.	nucleotide metabolism.synthesis.pyrimidine.dihydroorotase	dihydroorotase
+bin_R.23.1.1.4.	nucleotide metabolism.synthesis.pyrimidine.dihydroorotate dehydrogenase	dihydroorotate dehydrogenase
+bin_R.23.1.1.5.	nucleotide metabolism.synthesis.pyrimidine.uridine 5'-monophosphate synthase	orotate phosphoribosyltransferase
+bin_R.23.1.1.10.	nucleotide metabolism.synthesis.pyrimidine.CTP synthetase	CTP synthetase
+bin_R.23.1.2.	nucleotide metabolism.synthesis.purine	purine
+bin_R.23.1.2.1.	nucleotide metabolism.synthesis.purine.amidophosphoribosyltransferase	amidophosphoribosyltransferase
+bin_R.23.1.2.2.	nucleotide metabolism.synthesis.purine.GAR synthetase	GAR Synthetase
+bin_R.23.1.2.3.	nucleotide metabolism.synthesis.purine.GAR transformylase	GAR transformylase
+bin_R.23.1.2.4.	nucleotide metabolism.synthesis.purine.FGAR amidotransferase	FGAR amidotransferase
+bin_R.23.1.2.5.	nucleotide metabolism.synthesis.purine.AIR synthase	AIR synthase
+bin_R.23.1.2.6.	nucleotide metabolism.synthesis.purine.AIR carboxylase	AIR carboxylase
+bin_R.23.1.2.7.	nucleotide metabolism.synthesis.purine.SAICAR synthetase	SAICAR synthetase
+bin_R.23.1.2.8.	nucleotide metabolism.synthesis.purine.SAICAR lyase	SAICAR lyase
+bin_R.23.1.2.9.	nucleotide metabolism.synthesis.purine.AICAR transformylase and IMP synthase	AICAR transformylase
+bin_R.23.1.2.20.	nucleotide metabolism.synthesis.purine.adenylosuccinate synthase	adenylosuccinate synthase
+bin_R.23.1.2.30.	nucleotide metabolism.synthesis.purine.IMP dehydrogenase	IMP dehydrogenase
+bin_R.23.1.2.31.	nucleotide metabolism.synthesis.purine.GMP synthetase	GMP synthetase
+bin_R.23.1.3.	nucleotide metabolism.synthesis.PRS-PP	PRS-PP
+bin_R.23.1.99.	nucleotide metabolism.synthesis.unspecified	unspecified
+bin_R.23.2.	nucleotide metabolism.degradation	degradation
+bin_R.23.2.1.	nucleotide metabolism.degradation.pyrimidine	pyrimidine
+bin_R.23.2.1.2.	nucleotide metabolism.degradation.pyrimidine.uridine nucleosidase	uridine nucleosidase
+bin_R.23.2.1.3.	nucleotide metabolism.degradation.pyrimidine.dihydrouracil dehydrogenase	dihydrouracil dehydrogenase
+bin_R.23.2.1.4.	nucleotide metabolism.degradation.pyrimidine.dihydropyrimidinase	dihydropyrimidinase
+bin_R.23.2.1.5.	nucleotide metabolism.degradation.pyrimidine.beta-ureidopropionase	beta-ureidopropionase
+bin_R.23.2.2.	nucleotide metabolism.degradation.purine	purine
+bin_R.23.3.	nucleotide metabolism.salvage	salvage
+bin_R.23.3.1.	nucleotide metabolism.salvage.phosphoribosyltransferases	phosphoribosyltransferases
+bin_R.23.3.1.1.	nucleotide metabolism.salvage.phosphoribosyltransferases.adenine phosphoribosyltransferase (APRT)	aprt
+bin_R.23.3.1.2.	nucleotide metabolism.salvage.phosphoribosyltransferases.hypoxanthine-guanine phosphoribosyltransferase (HPRT)	hgprt
+bin_R.23.3.1.3.	nucleotide metabolism.salvage.phosphoribosyltransferases.uracil phosphoribosyltransferase (UPP)	upp
+bin_R.23.3.2.	nucleotide metabolism.salvage.nucleoside kinases	nucleoside kinases
+bin_R.23.3.2.1.	nucleotide metabolism.salvage.nucleoside kinases.adenosine kinase	adenosine kinase
+bin_R.23.3.2.2.	nucleotide metabolism.salvage.nucleoside kinases.uridine kinase	uridine kinase
+bin_R.23.3.2.3.	nucleotide metabolism.salvage.nucleoside kinases.thymidine kinase	thymidine kinase
+bin_R.23.3.3.	nucleotide metabolism.salvage.NUDIX hydrolases	NUDIX hydrolases
+bin_R.23.4.	nucleotide metabolism.phosphotransfer and pyrophosphatases	phosphotransfer and pyrophosphatases
+bin_R.23.4.1.	nucleotide metabolism.phosphotransfer and pyrophosphatases.adenylate kinase	adenylate kinase
+bin_R.23.4.2.	nucleotide metabolism.phosphotransfer and pyrophosphatases.guanylate kinase	guanylate kinase
+bin_R.23.4.3.	nucleotide metabolism.phosphotransfer and pyrophosphatases.uridylate kinase	uridylate kinase
+bin_R.23.4.4.	nucleotide metabolism.phosphotransfer and pyrophosphatases.thymidylate kinase	thymidylate kinase
+bin_R.23.4.10.	nucleotide metabolism.phosphotransfer and pyrophosphatases.nucleoside diphosphate kinase	nucleoside diphosphate kinase
+bin_R.23.4.99.	nucleotide metabolism.phosphotransfer and pyrophosphatases.misc	misc
+bin_R.23.5.	nucleotide metabolism.deoxynucleotide metabolism	deoxynucleotide metabolism
+bin_R.23.5.1.	nucleotide metabolism.deoxynucleotide metabolism.dihydrofolate reductase-thymidylate synthase	dihydrofolate reductase-thymidylate synthase
+bin_R.23.5.2.	nucleotide metabolism.deoxynucleotide metabolism.pseudouridine synthase	pseudouridine synthase
+bin_R.23.5.3.	nucleotide metabolism.deoxynucleotide metabolism.cytosine deaminase	cytosine deaminase
+bin_R.23.5.4.	nucleotide metabolism.deoxynucleotide metabolism.ribonucleoside-diphosphate reductase	ribonucleoside-diphosphate reductase
+bin_R.23.5.5.	nucleotide metabolism.deoxynucleotide metabolism.dUTP diphosphatase	dUTP diphosphatase
+bin_R.24.	biodegradation of xenobiotics	Degradation of Xenobiotics
+bin_R.24.1.	biodegradation of xenobiotics.hydroxyacylglutathione hydrolase	hydroxyacylglutathione hydrolase
+bin_R.24.2.	biodegradation of xenobiotics.lactoylglutathione lyase	lactoylglutathione lyase
+bin_R.24.3.	biodegradation of xenobiotics.3-hydroxybutyryl-CoA dehydrogenase	3-hydroxybutyryl-CoA dehydrogenase
+bin_R.25.	C1-metabolism	C1-metabolism
+bin_R.25.1.	C1-metabolism.glycine hydroxymethyltransferase	glycine hydroxymethyltransferase
+bin_R.25.2.	C1-metabolism.formate-tetrahydrofolate ligase	formate-tetrahydrofolate ligase
+bin_R.25.3.	C1-metabolism.dihydropteridine diphosphokinase	dihydropteridine diphosphokinase
+bin_R.25.4.	C1-metabolism.5-formyltetrahydrofolate cyclo-ligase	5-formyltetrahydrofolate cyclo-ligase
+bin_R.25.5.	C1-metabolism.methylenetetrahydrofolate dehydrogenase and methenyltetrahydrofolate cyclohydrolase	Methylenetetrahydrofolate dehydrogenase and cyclohydrolase
+bin_R.25.6.	C1-metabolism.methylenetetrahydrofolate reductase	methylenetetrahydrofolate reductase
+bin_R.25.7.	C1-metabolism.GTP cyclohydrolase I	GTP cyclohydrolase I
+bin_R.25.8.	C1-metabolism.tetrahydrofolate synthase	tetrahydrofolate synthase
+bin_R.25.9.	C1-metabolism.dihydroneopterin aldolase	dihydroneopterin aldolase
+bin_R.25.10.	C1-metabolism.formate dehydrogenase	formate dehydrogenase
+bin_R.26.	misc	misc
+bin_R.26.1.	misc.misc2	misc2
+bin_R.26.2.	misc.UDP glucosyl and glucoronyl transferases	UDP glucosyl and glucoronyl transferases
+bin_R.26.3.	misc.gluco-, galacto- and mannosidases	gluco-, galacto- and mannosidases
+bin_R.26.3.1.	misc.gluco-, galacto- and mannosidases.alpha-galactosidase	alpha-galactosidase
+bin_R.26.3.2.	misc.gluco-, galacto- and mannosidases.beta-galactosidase	beta-galactosidase
+bin_R.26.3.3.	misc.gluco-, galacto- and mannosidases.alpha-mannosidase	alpha-mannosidase
+bin_R.26.3.4.	misc.gluco-, galacto- and mannosidases.endoglucanase	endoglucanase
+bin_R.26.3.5.	misc.gluco-, galacto- and mannosidases.glycosyl hydrolase family 5	glycosyl hydrolase family 5
+bin_R.26.4.	misc.beta 1,3 glucan hydrolases	beta 1,3 glucan hydrolases
+bin_R.26.4.1.	misc.beta 1,3 glucan hydrolases.glucan endo-1,3-beta-glucosidase	glucan endo-1,3-beta-glucosidase
+bin_R.26.5.	misc.acyl transferases	acyl transferases
+bin_R.26.6.	misc.O-methyl transferases	O-methyl transferases
+bin_R.26.7.	misc.oxidases - copper, flavone etc	oxidases - copper, flavone etc
+bin_R.26.8.	misc.nitrilases, nitrile lyases, berberine bridge enzymes, reticuline oxidases, troponine reductases	nitrilases
+bin_R.26.9.	misc.glutathione S transferases	glutathione S transferases
+bin_R.26.10.	misc.cytochrome P450	cytochrome P450
+bin_R.26.11.	misc.alcohol dehydrogenases	alcohol dehydrogenases
+bin_R.26.11.1.	misc.alcohol dehydrogenases.cinnamyl alcohol dehydrogenase	alcohol dehydrogenases
+bin_R.26.12.	misc.peroxidases	peroxidases
+bin_R.26.13.	misc.acid and other phosphatases	acid and other phosphatases
+bin_R.26.14.	misc.oxygenases	oxygenases
+bin_R.26.16.	misc.myrosinases-lectin-jacalin	myrosinases-lectin-jacalin
+bin_R.26.17.	misc.dynamin	dynamin
+bin_R.26.18.	misc.invertase/pectin methylesterase inhibitor family protein	invertase/pectin methylesterase inhibitor family protein
+bin_R.26.19.	misc.plastocyanin-like	plastocyanin-like
+bin_R.26.21.	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein	protease inhibitor/seed storage/lipid transfer protein (LTP) family protein
+bin_R.26.21.1.	misc.protease inhibitor/seed storage/lipid transfer protein (LTP) family protein.protease inhibitor	protease inhibitor
+bin_R.26.22.	misc.short chain dehydrogenase/reductase (SDR)	short chain dehydrogenase/reductase (SDR)
+bin_R.26.23.	misc.rhodanese	rhodanese
+bin_R.26.24.	misc.GCN5-related N-acetyltransferase	GCN5-related N-acetyltransferase
+bin_R.26.25.	misc.sulfotransferase	sulfotransferase
+bin_R.26.26.	misc.aminotransferases	aminotransferases
+bin_R.26.26.1.	misc.aminotransferases.aminotransferase class IV family protein	aminotransferase class IV family protein
+bin_R.26.27.	misc.calcineurin-like phosphoesterase family protein	calcineurin-like phosphoesterase family protein
+bin_R.26.28.	misc.GDSL-motif lipase	GDSL-motif lipase
+bin_R.26.30.	misc.other Ferredoxins and Rieske domain	 other Ferredoxins and Rieske domain
+bin_R.27.	RNA	RNA
+bin_R.27.1.	RNA.processing	processing
+bin_R.27.1.1.	RNA.processing.splicing	splicing
+bin_R.27.1.2.	RNA.processing.RNA helicase	RNA helicase
+bin_R.27.1.19.	RNA.processing.ribonucleases	ribonucleases
+bin_R.27.1.20.	RNA.processing.degradation dicer	degradation dicer
+bin_R.27.1.21.	RNA.processing.siRNA methyltransferase	siRNA methyltransferase
+bin_R.27.2.	RNA.transcription	transcription
+bin_R.27.3.	RNA.regulation of transcription	regulation of transcription
+bin_R.27.3.1.	RNA.regulation of transcription.ABI3/VP1-related B3-domain-containing transcription factor family	ABI3/VP1-related B3-domain-containing transcription factor family
+bin_R.27.3.2.	RNA.regulation of transcription.alfin-like	Alfin-like
+bin_R.27.3.3.	RNA.regulation of transcription.AP2/EREBP, APETALA2/ethylene-responsive element binding protein family	AP2/EREBP, APETALA2/Ethylene-responsive element binding protein family
+bin_R.27.3.4.	RNA.regulation of transcription.auxin response transcription factor family (ARF)	ARF, Auxin Response Factor family
+bin_R.27.3.5.	RNA.regulation of transcription.ARR	ARR
+bin_R.27.3.6.	RNA.regulation of transcription.basic helix-loop-helix family (bHLH)	bHLH,Basic Helix-Loop-Helix family
+bin_R.27.3.7.	RNA.regulation of transcription.C2C2(Zn) Constans-like zinc finger family (CO-like)	C2C2(Zn) CO-like, Constans-like zinc finger family
+bin_R.27.3.8.	RNA.regulation of transcription.C2C2(Zn) DOF zinc finger family	C2C2(Zn) DOF zinc finger family
+bin_R.27.3.9.	RNA.regulation of transcription.C2C2(Zn) GATA transcription factor family	C2C2(Zn) GATA transcription factor family
+bin_R.27.3.10.	RNA.regulation of transcription.C2C2(Zn) YABBY family	C2C2(Zn) YABBY family
+bin_R.27.3.11.	RNA.regulation of transcription.C2H2 zinc finger family	C2H2 zinc finger family
+bin_R.27.3.12.	RNA.regulation of transcription.C3H zinc finger family	C3H zinc finger family
+bin_R.27.3.13.	RNA.regulation of transcription.CCAAT box binding factor family, DR1	CCAAT box binding factor family, DR1
+bin_R.27.3.14.	RNA.regulation of transcription.CCAAT box binding factor family, HAP2	CCAAT box binding factor family, HAP2
+bin_R.27.3.15.	RNA.regulation of transcription.CCAAT box binding factor family, HAP3	CCAAT box binding factor family, HAP3
+bin_R.27.3.16.	RNA.regulation of transcription.CCAAT box binding factor family, HAP5	CCAAT box binding factor family, HAP5
+bin_R.27.3.17.	RNA.regulation of transcription.CPP(Zn) CPP1-related transcription factor family	CPP(Zn),CPP1-related transcription factor family
+bin_R.27.3.18.	RNA.regulation of transcription.E2F/DP transcription factor family	E2F/DP transcription factor family
+bin_R.27.3.19.	RNA.regulation of transcription.EIN3-like (EIL) transcription factor family	EIN3-like(EIL) transcription factor family
+bin_R.27.3.20.	RNA.regulation of transcription.G2-like transcription factor family (GARP)	G2-like transcription factor family, GARP
+bin_R.27.3.21.	RNA.regulation of transcription.GRAS transcription factor family	GRAS transcription factor family
+bin_R.27.3.22.	RNA.regulation of transcription.homeobox transcription factor family (HB)	HB,Homeobox transcription factor family
+bin_R.27.3.23.	RNA.regulation of transcription.heat-shock transcription factor family (HSF)	HSF,Heat-shock transcription factor family
+bin_R.27.3.24.	RNA.regulation of transcription.MADS box transcription factor family	MADS box transcription factor family
+bin_R.27.3.25.	RNA.regulation of transcription.MYB domain transcription factor family	MYB domain transcription factor family
+bin_R.27.3.26.	RNA.regulation of transcription.MYB-related transcription factor family	MYB-related transcription factor family
+bin_R.27.3.27.	RNA.regulation of transcription.NAC domain transcription factor family	NAC domain transcription factor family
+bin_R.27.3.28.	RNA.regulation of transcription.squamosa promoter binding protein family (SBP)	SBP,Squamosa promoter binding protein family
+bin_R.27.3.29.	RNA.regulation of transcription.TCP transcription factor family	TCP transcription factor family
+bin_R.27.3.30.	RNA.regulation of transcription.triple-helix transcription factor family (Trihelix)	Trihelix, Triple-Helix transcription factor family
+bin_R.27.3.31.	RNA.regulation of transcription.TUB transcription factor family	TUB transcription factor family
+bin_R.27.3.32.	RNA.regulation of transcription.WRKY domain transcription factor family	WRKY domain transcription factor family
+bin_R.27.3.34.	RNA.regulation of transcription.orphan family	Orphan family
+bin_R.27.3.35.	RNA.regulation of transcription.bZIP transcription factor family	bZIP transcription factor family
+bin_R.27.3.36.	RNA.regulation of transcription.argonaute transcription factor family	Argonaute
+bin_R.27.3.37.	RNA.regulation of transcription.lateral organ boundaries gene family (AS2)	AS2,Lateral Organ Boundaries Gene Family
+bin_R.27.3.38.	RNA.regulation of transcription.AT-rich interaction domain containing transcription factor family	AT-rich interaction domain containing transcription factor family
+bin_R.27.3.39.	RNA.regulation of transcription.AtSR transcription factor family	AtSR Transcription Factor family
+bin_R.27.3.40.	RNA.regulation of transcription.AUX/IAA family	Aux/IAA family
+bin_R.27.3.41.	RNA.regulation of transcription.B3 transcription factor family	B3 transcription factor family
+bin_R.27.3.42.	RNA.regulation of transcription.bromodomain proteins	Bromodomain proteins
+bin_R.27.3.44.	RNA.regulation of transcription.chromatin remodeling factors	Chromatin Remodeling Factors
+bin_R.27.3.46.	RNA.regulation of transcription.DNA methyltransferases	DNA methyltransferases
+bin_R.27.3.47.	RNA.regulation of transcription.ELF3	ELF3
+bin_R.27.3.48.	RNA.regulation of transcription.FHA transcription factor	FHA transcription factor
+bin_R.27.3.49.	RNA.regulation of transcription.GeBP like	GeBP like
+bin_R.27.3.50.	RNA.regulation of transcription.general transcription	General Transcription
+bin_R.27.3.51.	RNA.regulation of transcription.general transcription, TBP-binding protein	General Transcription, TBP-binding protein
+bin_R.27.3.52.	RNA.regulation of transcription.global transcription factor group	Global transcription factor group
+bin_R.27.3.53.	RNA.regulation of transcription.high mobility group family (HMG)	High mobility group (HMG) family
+bin_R.27.3.54.	RNA.regulation of transcription.histone acetyltransferases	Histone acetyltransferases
+bin_R.27.3.55.	RNA.regulation of transcription.HDA	HDA
+bin_R.27.3.57.	RNA.regulation of transcription.JUMONJI family	JUMONJI family
+bin_R.27.3.58.	RNA.regulation of transcription.LUG	LUG
+bin_R.27.3.59.	RNA.regulation of transcription.methyl binding domain proteins	Methyl binding domain proteins
+bin_R.27.3.60.	RNA.regulation of transcription.NIN-like bZIP-related family	NIN-like bZIP-related family
+bin_R.27.3.61.	RNA.regulation of transcription.NPR1/NIM1	NPR1/NIM1
+bin_R.27.3.62.	RNA.regulation of transcription.nucleosome/chromatin assembly factor group	Nucleosome/chromatin assembly factor group
+bin_R.27.3.63.	RNA.regulation of transcription.PHD finger transcription factor	PHD finger transcription factor
+bin_R.27.3.64.	RNA.regulation of transcription.PHOR1	PHOR1
+bin_R.27.3.65.	RNA.regulation of transcription.polycomb group (PcG)	Polycomb Group (PcG)
+bin_R.27.3.66.	RNA.regulation of transcription.pseudo ARR transcription factor family	Psudo ARR transcription factor family
+bin_R.27.3.67.	RNA.regulation of transcription.putative transcription regulator	putative transcription regulator
+bin_R.27.3.68.	RNA.regulation of transcription.PWWP domain protein	PWWP domain protein
+bin_R.27.3.69.	RNA.regulation of transcription.SET-domain transcriptional regulator family	SET-domain transcriptional regulator family
+bin_R.27.3.70.	RNA.regulation of transcription.silencing group	Silencing Group
+bin_R.27.3.71.	RNA.regulation of transcription.SNF7	SNF7
+bin_R.27.3.72.	RNA.regulation of transcription.Transcriptional Adaptor Zinc Bundle (TAZ) domain family	Transcriptional Adaptor Zinc Bundle (TAZ) domain family
+bin_R.27.3.73.	RNA.regulation of transcription.Zn-finger(CCHC)	Zn-finger(CCHC)
+bin_R.27.3.75.	RNA.regulation of transcription.GRP	GRP
+bin_R.27.3.80.	RNA.regulation of transcription.zf-HD	zf-HD
+bin_R.27.3.81.	RNA.regulation of transcription.S1FA	S1FA
+bin_R.27.3.82.	RNA.regulation of transcription.plant TF (pbf2)	plant TF (pbf2)
+bin_R.27.3.83.	RNA.regulation of transcription.GRF zinc finger family	GRF zinc finger family
+bin_R.27.3.99.	RNA.regulation of transcription.unclassified	unclassified
+bin_R.27.4.	RNA.RNA binding	RNA binding
+bin_R.27.5.	RNA.silencing	RNA.silencing
+bin_R.27.5.1.	RNA.silencing.sRNA formation	sRNA formation
+bin_R.27.5.1.1.	RNA.silencing.sRNA formation.DCL	DCL
+bin_R.27.5.1.2.	RNA.silencing.sRNA formation.DRB	DRB
+bin_R.27.5.1.4.	RNA.silencing.sRNA formation.HEN	HEN
+bin_R.27.5.1.4.1.	RNA.silencing.sRNA formation.HEN.KH	KH
+bin_R.27.5.2.	RNA.silencing.RISC formation	RISC formation
+bin_R.27.5.2.1.	RNA.silencing.RISC formation.RNA helicase	RNA helicase
+bin_R.27.5.2.2.	RNA.silencing.RISC formation.AGO	AGO
+bin_R.27.5.2.3.	RNA.silencing.RISC formation.DRB	DRB
+bin_R.27.5.3.	RNA.silencing.transitivity	transitivity
+bin_R.27.5.3.1.	RNA.silencing.transitivity.RDRP	RDRP
+bin_R.27.5.3.2.	RNA.silencing.transitivity.SGS	SGS
+bin_R.27.5.3.2.1.	RNA.silencing.transitivity.SGS.XH-XS	XH-XS
+bin_R.27.5.4.	RNA.silencing.DNA methylation	DNA methylation
+bin_R.27.5.4.1.	RNA.silencing.DNA methylation.DNA methylase	DNA methylase
+bin_R.28.	DNA	DNA
+bin_R.28.1.	DNA.synthesis/chromatin structure	synthesis/chromatin structure
+bin_R.28.1.1.	DNA.synthesis/chromatin structure.retrotransposon/transposase	retrotransposon/transposase
+bin_R.28.1.1.3.	DNA.synthesis/chromatin structure.retrotransposon/transposase.copia-like retrotransposon	copia-like retrotransposon
+bin_R.28.1.1.4.	DNA.synthesis/chromatin structure.retrotransposon/transposase.hat-like transposase	hat-like transposase
+bin_R.28.1.1.5.	DNA.synthesis/chromatin structure.retrotransposon/transposase.CACTA-like transposase	CACTA-like transposase
+bin_R.28.1.1.7.	DNA.synthesis/chromatin structure.retrotransposon/transposase.mutator-like transposase	mutator-like transposase
+bin_R.28.1.3.	DNA.synthesis/chromatin structure.histone	histone
+bin_R.28.2.	DNA.repair	repair
+bin_R.28.99.	DNA.unspecified	unspecified
+bin_R.29.	protein	protein
+bin_R.29.1.	protein.aa activation	aa activation
+bin_R.29.1.1.	protein.aa activation.tyrosine-tRNA ligase	tyrosine-tRNA ligase
+bin_R.29.1.3.	protein.aa activation.threonine-tRNA ligase	threonine-tRNA ligase
+bin_R.29.1.4.	protein.aa activation.leucine-tRNA ligase	leucine-tRNA ligase
+bin_R.29.1.5.	protein.aa activation.isoleucine-tRNA ligase	isoleucine-tRNA ligase
+bin_R.29.1.6.	protein.aa activation.lysine-tRNA ligase	lysine-tRNA ligase
+bin_R.29.1.7.	protein.aa activation.alanine-tRNA ligase	alanine-tRNA ligase
+bin_R.29.1.9.	protein.aa activation.valine-tRNA ligase	valine-tRNA ligase
+bin_R.29.1.10.	protein.aa activation.methionine-tRNA ligase	methionine-tRNA ligase
+bin_R.29.1.11.	protein.aa activation.serine-tRNA ligase	serine-tRNA ligase
+bin_R.29.1.12.	protein.aa activation.aspartate-tRNA ligase	aspartate-tRNA ligase
+bin_R.29.1.14.	protein.aa activation.glycine-tRNA ligase	glycine-tRNA ligase
+bin_R.29.1.15.	protein.aa activation.proline-tRNA ligase	proline-tRNA ligase
+bin_R.29.1.16.	protein.aa activation.cysteine-tRNA ligase	cysteine-tRNA ligase
+bin_R.29.1.17.	protein.aa activation.glutamate-tRNA ligase	glutamate-tRNA ligase
+bin_R.29.1.18.	protein.aa activation.glutamine-tRNA ligase	glutamine-tRNA ligase
+bin_R.29.1.19.	protein.aa activation.arginine-tRNA ligase	arginine-tRNA ligase
+bin_R.29.1.20.	protein.aa activation.phenylalanine-tRNA ligase	phenylalanine-tRNA ligase
+bin_R.29.1.21.	protein.aa activation.histidine-tRNA ligase	histidine-tRNA ligase
+bin_R.29.1.22.	protein.aa activation.asparagine-tRNA ligase	asparagine-tRNA ligase
+bin_R.29.1.30.	protein.aa activation.pseudouridylate synthase	pseudouridylate synthase
+bin_R.29.1.40.	protein.aa activation.bifunctional aminoacyl-tRNA synthetase	bifunctional aminoacyl-tRNA synthetase
+bin_R.29.2.	protein.synthesis	synthesis
+bin_R.29.2.1.	protein.synthesis.ribosomal protein	ribosomal protein
+bin_R.29.2.1.1.	protein.synthesis.ribosomal protein.prokaryotic	prokaryotic
+bin_R.29.2.1.1.1.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast	chloroplast
+bin_R.29.2.1.1.1.1.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit	30S subunit
+bin_R.29.2.1.1.1.1.1.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S1	S1
+bin_R.29.2.1.1.1.1.2.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S2	S2
+bin_R.29.2.1.1.1.1.3.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S3	S3
+bin_R.29.2.1.1.1.1.4.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S4	S4
+bin_R.29.2.1.1.1.1.5.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S5	S5
+bin_R.29.2.1.1.1.1.6.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S6	S6
+bin_R.29.2.1.1.1.1.7.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S7	S7
+bin_R.29.2.1.1.1.1.8.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S8	S8
+bin_R.29.2.1.1.1.1.9.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S9	S9
+bin_R.29.2.1.1.1.1.10.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S10	S10
+bin_R.29.2.1.1.1.1.11.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S11	S11
+bin_R.29.2.1.1.1.1.12.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S12	S12
+bin_R.29.2.1.1.1.1.13.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S13	S13
+bin_R.29.2.1.1.1.1.14.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S14	S14
+bin_R.29.2.1.1.1.1.15.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S15	S15
+bin_R.29.2.1.1.1.1.16.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S16	S16
+bin_R.29.2.1.1.1.1.17.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S17	S17
+bin_R.29.2.1.1.1.1.18.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S18	S18
+bin_R.29.2.1.1.1.1.19.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S19	S19
+bin_R.29.2.1.1.1.1.20.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S20	S20
+bin_R.29.2.1.1.1.1.31.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S31	S31
+bin_R.29.2.1.1.1.1.83.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.PSRP3	PSRP3
+bin_R.29.2.1.1.1.1.530.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.30S subunit.S30A	S30A
+bin_R.29.2.1.1.1.2.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit	50S subunit
+bin_R.29.2.1.1.1.2.1.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L1	L1
+bin_R.29.2.1.1.1.2.2.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L2	L2
+bin_R.29.2.1.1.1.2.3.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L3	L3
+bin_R.29.2.1.1.1.2.4.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L4	L4
+bin_R.29.2.1.1.1.2.5.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L5	L5
+bin_R.29.2.1.1.1.2.6.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L6	L6
+bin_R.29.2.1.1.1.2.9.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L9	L9
+bin_R.29.2.1.1.1.2.10.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L10	L10
+bin_R.29.2.1.1.1.2.11.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L11	L11
+bin_R.29.2.1.1.1.2.12.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L12	L12
+bin_R.29.2.1.1.1.2.13.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L13	L13
+bin_R.29.2.1.1.1.2.14.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L14	L14
+bin_R.29.2.1.1.1.2.15.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L15	L15
+bin_R.29.2.1.1.1.2.16.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L16	L16
+bin_R.29.2.1.1.1.2.17.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L17	L17
+bin_R.29.2.1.1.1.2.18.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L18	L18
+bin_R.29.2.1.1.1.2.19.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L19	L19
+bin_R.29.2.1.1.1.2.20.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L20	L20
+bin_R.29.2.1.1.1.2.21.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L21	L21
+bin_R.29.2.1.1.1.2.22.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L22	L22
+bin_R.29.2.1.1.1.2.23.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L23	L23
+bin_R.29.2.1.1.1.2.24.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L24	L24
+bin_R.29.2.1.1.1.2.27.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L27	L27
+bin_R.29.2.1.1.1.2.28.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L28	L28
+bin_R.29.2.1.1.1.2.29.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L29	L29
+bin_R.29.2.1.1.1.2.31.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L31	L31
+bin_R.29.2.1.1.1.2.32.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L32	L32
+bin_R.29.2.1.1.1.2.33.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L33	L33
+bin_R.29.2.1.1.1.2.34.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L34	L34
+bin_R.29.2.1.1.1.2.36.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.L36	L36
+bin_R.29.2.1.1.1.2.85.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.PSRP5	PSRP5
+bin_R.29.2.1.1.1.2.86.	protein.synthesis.ribosomal protein.prokaryotic.chloroplast.50S subunit.PSRP6	PSRP6
+bin_R.29.2.1.1.2.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion	mitochondrion
+bin_R.29.2.1.1.2.1.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit	30S subunit
+bin_R.29.2.1.1.2.1.2.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S2	S2
+bin_R.29.2.1.1.2.1.3.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S3	S3
+bin_R.29.2.1.1.2.1.4.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S4	S4
+bin_R.29.2.1.1.2.1.7.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S7	S7
+bin_R.29.2.1.1.2.1.10.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S10	S10
+bin_R.29.2.1.1.2.1.11.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S11	S11
+bin_R.29.2.1.1.2.1.14.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S14	S14
+bin_R.29.2.1.1.2.1.16.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S16	S16
+bin_R.29.2.1.1.2.1.27.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S27	S27
+bin_R.29.2.1.1.2.1.29.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S29	S29
+bin_R.29.2.1.1.2.1.31.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.30S subunit.S31	S31
+bin_R.29.2.1.1.2.2.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.50S subunit	50S subunit
+bin_R.29.2.1.1.2.2.2.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.50S subunit.L2	L2
+bin_R.29.2.1.1.2.2.5.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.50S subunit.L5	L5
+bin_R.29.2.1.1.2.2.16.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.50S subunit.L16	L16
+bin_R.29.2.1.1.2.2.29.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.50S subunit.L29	L29
+bin_R.29.2.1.1.2.2.37.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.50S subunit.L37	L37
+bin_R.29.2.1.1.2.51.	protein.synthesis.ribosomal protein.prokaryotic.mitochondrion.L51/S25/CI-B8	L51/S25/CI-B8
+bin_R.29.2.1.1.3.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar	unknown organellar
+bin_R.29.2.1.1.3.1.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit	30S subunit
+bin_R.29.2.1.1.3.1.1.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit.S1	S1
+bin_R.29.2.1.1.3.1.4.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit.S4	S4
+bin_R.29.2.1.1.3.1.5.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit.S5	S5
+bin_R.29.2.1.1.3.1.6.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit.S6	S6
+bin_R.29.2.1.1.3.1.12.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit.S12	S12
+bin_R.29.2.1.1.3.1.15.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit.S15	S15
+bin_R.29.2.1.1.3.1.16.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit.S16	S16
+bin_R.29.2.1.1.3.1.17.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit.S17	S17
+bin_R.29.2.1.1.3.1.18.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit.S18	S18
+bin_R.29.2.1.1.3.1.21.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.30S subunit.S21	S21
+bin_R.29.2.1.1.3.2.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit	50S subunit
+bin_R.29.2.1.1.3.2.1.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L1	L1
+bin_R.29.2.1.1.3.2.2.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L2	L2
+bin_R.29.2.1.1.3.2.4.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L4	L4
+bin_R.29.2.1.1.3.2.9.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L9	L9
+bin_R.29.2.1.1.3.2.10.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L10	L10
+bin_R.29.2.1.1.3.2.12.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L12	L12
+bin_R.29.2.1.1.3.2.14.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L14	L14
+bin_R.29.2.1.1.3.2.15.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L15	L15
+bin_R.29.2.1.1.3.2.17.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L17	L17
+bin_R.29.2.1.1.3.2.18.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L18	L18
+bin_R.29.2.1.1.3.2.19.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L19	L19
+bin_R.29.2.1.1.3.2.20.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L20	L20
+bin_R.29.2.1.1.3.2.25.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L25	L25
+bin_R.29.2.1.1.3.2.28.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L28	L28
+bin_R.29.2.1.1.3.2.30.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L30	L30
+bin_R.29.2.1.1.3.2.32.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L32	L32
+bin_R.29.2.1.1.3.2.33.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L33	L33
+bin_R.29.2.1.1.3.2.34.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L34	L34
+bin_R.29.2.1.1.3.2.35.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L35	L35
+bin_R.29.2.1.1.3.2.36.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L36	L36
+bin_R.29.2.1.1.3.2.99.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.unknown	unknown
+bin_R.29.2.1.1.3.2.510.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L10A	L10A
+bin_R.29.2.1.1.3.2.1185.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L18/L5	L18/L5
+bin_R.29.2.1.1.3.2.1712.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.50S subunit.L7/L12	L7/L12
+bin_R.29.2.1.1.3.99.	protein.synthesis.ribosomal protein.prokaryotic.unknown organellar.unknown	unknown
+bin_R.29.2.1.2.	protein.synthesis.ribosomal protein.eukaryotic	eukaryotic
+bin_R.29.2.1.2.1.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit	40S subunit
+bin_R.29.2.1.2.1.2.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S2	S2
+bin_R.29.2.1.2.1.3.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S3	S3
+bin_R.29.2.1.2.1.4.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S4	S4
+bin_R.29.2.1.2.1.5.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S5	S5
+bin_R.29.2.1.2.1.6.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S6	S6
+bin_R.29.2.1.2.1.7.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S7	S7
+bin_R.29.2.1.2.1.8.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S8	S8
+bin_R.29.2.1.2.1.9.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S9	S9
+bin_R.29.2.1.2.1.10.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S10	S10
+bin_R.29.2.1.2.1.11.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S11	S11
+bin_R.29.2.1.2.1.12.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S12	S12
+bin_R.29.2.1.2.1.13.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S13	S13
+bin_R.29.2.1.2.1.14.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S14	S14
+bin_R.29.2.1.2.1.15.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S15	S15
+bin_R.29.2.1.2.1.16.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S16	S16
+bin_R.29.2.1.2.1.17.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S17	S17
+bin_R.29.2.1.2.1.18.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S18	S18
+bin_R.29.2.1.2.1.19.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S19	S19
+bin_R.29.2.1.2.1.20.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S20	S20
+bin_R.29.2.1.2.1.21.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S21	S21
+bin_R.29.2.1.2.1.23.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S23	S23
+bin_R.29.2.1.2.1.24.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S24	S24
+bin_R.29.2.1.2.1.25.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S25	S25
+bin_R.29.2.1.2.1.26.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S26	S26
+bin_R.29.2.1.2.1.27.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S27	S27
+bin_R.29.2.1.2.1.28.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S28	S28
+bin_R.29.2.1.2.1.29.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S29	S29
+bin_R.29.2.1.2.1.30.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S30	S30
+bin_R.29.2.1.2.1.31.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.SA	SA
+bin_R.29.2.1.2.1.53.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S3A	S3A
+bin_R.29.2.1.2.1.515.	protein.synthesis.ribosomal protein.eukaryotic.40S subunit.S15A	S15A
+bin_R.29.2.1.2.2.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit	60S subunit
+bin_R.29.2.1.2.2.1.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L1	L1
+bin_R.29.2.1.2.2.2.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L2	L2
+bin_R.29.2.1.2.2.3.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L3	L3
+bin_R.29.2.1.2.2.5.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L5	L5
+bin_R.29.2.1.2.2.6.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L6	L6
+bin_R.29.2.1.2.2.7.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L7	L7
+bin_R.29.2.1.2.2.8.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L8	L8
+bin_R.29.2.1.2.2.9.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L9	L9
+bin_R.29.2.1.2.2.10.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L10	L10
+bin_R.29.2.1.2.2.11.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L11	L11
+bin_R.29.2.1.2.2.12.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L12	L12
+bin_R.29.2.1.2.2.13.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L13	L13
+bin_R.29.2.1.2.2.14.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L14	L14
+bin_R.29.2.1.2.2.15.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L15	L15
+bin_R.29.2.1.2.2.16.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L16	L16
+bin_R.29.2.1.2.2.17.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L17	L17
+bin_R.29.2.1.2.2.18.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L18	L18
+bin_R.29.2.1.2.2.19.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L19	L19
+bin_R.29.2.1.2.2.21.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L21	L21
+bin_R.29.2.1.2.2.22.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L22	L22
+bin_R.29.2.1.2.2.23.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L23	L23
+bin_R.29.2.1.2.2.24.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L24	L24
+bin_R.29.2.1.2.2.26.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L26	L26
+bin_R.29.2.1.2.2.27.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L27	L27
+bin_R.29.2.1.2.2.28.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L28	L28
+bin_R.29.2.1.2.2.29.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L29	L29
+bin_R.29.2.1.2.2.30.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L30	L30
+bin_R.29.2.1.2.2.31.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L31	L31
+bin_R.29.2.1.2.2.32.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L32	L32
+bin_R.29.2.1.2.2.34.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L34	L34
+bin_R.29.2.1.2.2.35.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L35	L35
+bin_R.29.2.1.2.2.36.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L36	L36
+bin_R.29.2.1.2.2.37.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L37	L37
+bin_R.29.2.1.2.2.38.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L38	L38
+bin_R.29.2.1.2.2.39.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L39	L39
+bin_R.29.2.1.2.2.40.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L40	L40
+bin_R.29.2.1.2.2.41.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L41	L41
+bin_R.29.2.1.2.2.44.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L44	L44
+bin_R.29.2.1.2.2.57.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L7A	L7A
+bin_R.29.2.1.2.2.80.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.P0	P0
+bin_R.29.2.1.2.2.81.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.P1	P1
+bin_R.29.2.1.2.2.82.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.P2	P2
+bin_R.29.2.1.2.2.83.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.P3	P3
+bin_R.29.2.1.2.2.99.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.unknown	unknown
+bin_R.29.2.1.2.2.141.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L4/L1	L4/L1
+bin_R.29.2.1.2.2.510.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L10A	L10A
+bin_R.29.2.1.2.2.513.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L13A	L13A
+bin_R.29.2.1.2.2.518.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L18A	L18A
+bin_R.29.2.1.2.2.523.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L23A	L23A
+bin_R.29.2.1.2.2.527.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L27A	L27A
+bin_R.29.2.1.2.2.535.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L35A	L35A
+bin_R.29.2.1.2.2.536.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L36A	L36A
+bin_R.29.2.1.2.2.537.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L37A	L37A
+bin_R.29.2.1.2.2.1730.	protein.synthesis.ribosomal protein.eukaryotic.60S subunit.L7/L30/S12	L7/L30/S12
+bin_R.29.2.1.99.	protein.synthesis.ribosomal protein.unknown	unknown
+bin_R.29.2.1.99.1.	protein.synthesis.ribosomal protein.unknown.small subunit	small subunit
+bin_R.29.2.1.99.1.4.	protein.synthesis.ribosomal protein.unknown.small subunit.S4	S4
+bin_R.29.2.1.99.1.5.	protein.synthesis.ribosomal protein.unknown.small subunit.S5	S5
+bin_R.29.2.1.99.1.21.	protein.synthesis.ribosomal protein.unknown.small subunit.S21	S21
+bin_R.29.2.1.99.2.	protein.synthesis.ribosomal protein.unknown.large subunit	large subunit
+bin_R.29.2.1.99.2.18.	protein.synthesis.ribosomal protein.unknown.large subunit.L18	L18
+bin_R.29.2.1.99.2.23.	protein.synthesis.ribosomal protein.unknown.large subunit.L23	L23
+bin_R.29.2.1.99.2.1185.	protein.synthesis.ribosomal protein.unknown.large subunit.L18/L5	L18/L5
+bin_R.29.2.1.99.99.	protein.synthesis.ribosomal protein.unknown.unknown	unknown
+bin_R.29.2.2.	protein.synthesis.ribosome biogenesis	misc ribosomal protein
+bin_R.29.2.2.3.	protein.synthesis.ribosome biogenesis.pre-rRNA processing and modifications	pre-rRNA processing and modifications
+bin_R.29.2.2.3.4.	protein.synthesis.ribosome biogenesis.pre-rRNA processing and modifications.WD-repeat proteins	WD-repeat proteins
+bin_R.29.2.2.50.	protein.synthesis.ribosome biogenesis.BRIX	BRIX
+bin_R.29.2.3.	protein.synthesis.initiation	initiation
+bin_R.29.2.3.1.	protein.synthesis.initiation.deoxyhypusine synthase	deoxyhypusine synthase
+bin_R.29.2.4.	protein.synthesis.elongation	elongation
+bin_R.29.2.5.	protein.synthesis.release	release
+bin_R.29.2.6.	protein.synthesis.ribosomal RNA	ribosomal RNA
+bin_R.29.2.7.	protein.synthesis.transfer RNA	transfer RNA
+bin_R.29.2.7.1.	protein.synthesis.transfer RNA.nucleus	nucleus
+bin_R.29.2.7.1.1.	protein.synthesis.transfer RNA.nucleus.tRNA-Ala	tRNA-Ala
+bin_R.29.2.7.1.2.	protein.synthesis.transfer RNA.nucleus.tRNA-Arg	tRNA-Arg
+bin_R.29.2.7.1.3.	protein.synthesis.transfer RNA.nucleus.tRNA-Asn	tRNA-Asn
+bin_R.29.2.7.1.4.	protein.synthesis.transfer RNA.nucleus.tRNA-Asp	tRNA-Asp
+bin_R.29.2.7.1.5.	protein.synthesis.transfer RNA.nucleus.tRNA-Cys	tRNA-Cys
+bin_R.29.2.7.1.6.	protein.synthesis.transfer RNA.nucleus.tRNA-Glu	tRNA-Glu
+bin_R.29.2.7.1.7.	protein.synthesis.transfer RNA.nucleus.tRNA-Gln	tRNA-Gln
+bin_R.29.2.7.1.8.	protein.synthesis.transfer RNA.nucleus.tRNA-Gly	tRNA-Gly
+bin_R.29.2.7.1.9.	protein.synthesis.transfer RNA.nucleus.tRNA-His	tRNA-His
+bin_R.29.2.7.1.10.	protein.synthesis.transfer RNA.nucleus.tRNA-Ile	tRNA-Ile
+bin_R.29.2.7.1.11.	protein.synthesis.transfer RNA.nucleus.tRNA-Leu	tRNA-Leu
+bin_R.29.2.7.1.12.	protein.synthesis.transfer RNA.nucleus.tRNA-Lys	tRNA-Lys
+bin_R.29.2.7.1.13.	protein.synthesis.transfer RNA.nucleus.tRNA-Met	tRNA-Met
+bin_R.29.2.7.1.14.	protein.synthesis.transfer RNA.nucleus.tRNA-Phe	tRNA-Phe
+bin_R.29.2.7.1.15.	protein.synthesis.transfer RNA.nucleus.tRNA-Pro	tRNA-Pro
+bin_R.29.2.7.1.16.	protein.synthesis.transfer RNA.nucleus.tRNA-Ser	tRNA-Ser
+bin_R.29.2.7.1.17.	protein.synthesis.transfer RNA.nucleus.tRNA-Thr	tRNA-Thr
+bin_R.29.2.7.1.18.	protein.synthesis.transfer RNA.nucleus.tRNA-Trp	tRNA-Trp
+bin_R.29.2.7.1.19.	protein.synthesis.transfer RNA.nucleus.tRNA-Tyr	tRNA-Tyr
+bin_R.29.2.7.1.20.	protein.synthesis.transfer RNA.nucleus.tRNA-Val	tRNA-Val
+bin_R.29.2.7.2.	protein.synthesis.transfer RNA.plastid	plastid
+bin_R.29.2.7.2.1.	protein.synthesis.transfer RNA.plastid.tRNA-Ala	tRNA-Ala
+bin_R.29.2.7.2.2.	protein.synthesis.transfer RNA.plastid.tRNA-Arg	tRNA-Arg
+bin_R.29.2.7.2.3.	protein.synthesis.transfer RNA.plastid.tRNA-Asn	tRNA-Asn
+bin_R.29.2.7.2.4.	protein.synthesis.transfer RNA.plastid.tRNA-Asp	tRNA-Asp
+bin_R.29.2.7.2.5.	protein.synthesis.transfer RNA.plastid.tRNA-Cys	tRNA-Cys
+bin_R.29.2.7.2.6.	protein.synthesis.transfer RNA.plastid.tRNA-Glu	tRNA-Glu
+bin_R.29.2.7.2.7.	protein.synthesis.transfer RNA.plastid.tRNA-Gln	tRNA-Gln
+bin_R.29.2.7.2.8.	protein.synthesis.transfer RNA.plastid.tRNA-Gly	tRNA-Gly
+bin_R.29.2.7.2.9.	protein.synthesis.transfer RNA.plastid.tRNA-His	tRNA-His
+bin_R.29.2.7.2.10.	protein.synthesis.transfer RNA.plastid.tRNA-Ile	tRNA-Ile
+bin_R.29.2.7.2.11.	protein.synthesis.transfer RNA.plastid.tRNA-Leu	tRNA-Leu
+bin_R.29.2.7.2.12.	protein.synthesis.transfer RNA.plastid.tRNA-Lys	tRNA-Lys
+bin_R.29.2.7.2.13.	protein.synthesis.transfer RNA.plastid.tRNA-Met	tRNA-Met
+bin_R.29.2.7.2.14.	protein.synthesis.transfer RNA.plastid.tRNA-Phe	tRNA-Phe
+bin_R.29.2.7.2.15.	protein.synthesis.transfer RNA.plastid.tRNA-Pro	tRNA-Pro
+bin_R.29.2.7.2.16.	protein.synthesis.transfer RNA.plastid.tRNA-Ser	tRNA-Ser
+bin_R.29.2.7.2.17.	protein.synthesis.transfer RNA.plastid.tRNA-Thr	tRNA-Thr
+bin_R.29.2.7.2.18.	protein.synthesis.transfer RNA.plastid.tRNA-Trp	tRNA-Trp
+bin_R.29.2.7.2.19.	protein.synthesis.transfer RNA.plastid.tRNA-Tyr	tRNA-Tyr
+bin_R.29.2.7.2.20.	protein.synthesis.transfer RNA.plastid.tRNA-Val	tRNA-Val
+bin_R.29.2.7.3.	protein.synthesis.transfer RNA.mitochondrion	mitochondrion
+bin_R.29.2.7.3.3.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Asn	tRNA-Asn
+bin_R.29.2.7.3.4.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Asp	tRNA-Asp
+bin_R.29.2.7.3.5.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Cys	tRNA-Cys
+bin_R.29.2.7.3.6.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Glu	tRNA-Glu
+bin_R.29.2.7.3.7.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Gln	tRNA-Gln
+bin_R.29.2.7.3.8.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Gly	tRNA-Gly
+bin_R.29.2.7.3.10.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Ile	tRNA-Ile
+bin_R.29.2.7.3.12.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Lys	tRNA-Lys
+bin_R.29.2.7.3.13.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Met	tRNA-Met
+bin_R.29.2.7.3.15.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Pro	tRNA-Pro
+bin_R.29.2.7.3.16.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Ser	tRNA-Ser
+bin_R.29.2.7.3.18.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Trp	tRNA-Trp
+bin_R.29.2.7.3.19.	protein.synthesis.transfer RNA.mitochondrion.tRNA-Tyr	tRNA-Tyr
+bin_R.29.2.99.	protein.synthesis.misc	misc
+bin_R.29.3.	protein.targeting	targeting
+bin_R.29.3.1.	protein.targeting.nucleus	nucleus
+bin_R.29.3.2.	protein.targeting.mitochondria	mitochondria
+bin_R.29.3.3.	protein.targeting.chloroplast	chloroplast
+bin_R.29.3.4.	protein.targeting.secretory pathway	secretory pathway
+bin_R.29.3.4.1.	protein.targeting.secretory pathway.ER	ER
+bin_R.29.3.4.2.	protein.targeting.secretory pathway.golgi	golgi
+bin_R.29.3.4.3.	protein.targeting.secretory pathway.vacuole	vacuole
+bin_R.29.3.4.4.	protein.targeting.secretory pathway.plasma membrane	plasma membrane
+bin_R.29.3.4.99.	protein.targeting.secretory pathway.unspecified	unspecified
+bin_R.29.3.5.	protein.targeting.peroxisomes	peroxisomes
+bin_R.29.3.99.	protein.targeting.unknown	unknown
+bin_R.29.4.	protein.postranslational modification	postranslational modification
+bin_R.29.4.1.	protein.postranslational modification.kinase	kinase
+bin_R.29.4.1.51.	protein.postranslational modification.kinase.receptor like cytoplasmatic kinase I	receptor like cytoplasmatic kinase I
+bin_R.29.4.1.52.	protein.postranslational modification.kinase.receptor like cytoplasmatic kinase II	receptor like cytoplasmatic kinase II
+bin_R.29.4.1.53.	protein.postranslational modification.kinase.receptor like cytoplasmatic kinase III	receptor like cytoplasmatic kinase III
+bin_R.29.4.1.54.	protein.postranslational modification.kinase.receptor like cytoplasmatic kinase IV	receptor like cytoplasmatic kinase IV
+bin_R.29.4.1.55.	protein.postranslational modification.kinase.receptor like cytoplasmatic kinase V	receptor like cytoplasmatic kinase V
+bin_R.29.4.1.56.	protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VI	receptor like cytoplasmatic kinase VI
+bin_R.29.4.1.57.	protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VII	receptor like cytoplasmatic kinase VII
+bin_R.29.4.1.58.	protein.postranslational modification.kinase.receptor like cytoplasmatic kinase VIII	receptor like cytoplasmatic kinase VIII
+bin_R.29.4.1.59.	protein.postranslational modification.kinase.receptor like cytoplasmatic kinase IX	receptor like cytoplasmatic kinase IX
+bin_R.29.4.1.60.	protein.postranslational modification.kinase.receptor like cytoplasmatic kinase X	receptor like cytoplasmatic kinase X
+bin_R.29.5.	protein.degradation	degradation
+bin_R.29.5.1.	protein.degradation.subtilases	subtilases
+bin_R.29.5.2.	protein.degradation.autophagy	autophagy
+bin_R.29.5.3.	protein.degradation.cysteine protease	cysteine protease
+bin_R.29.5.4.	protein.degradation.aspartate protease	aspartate protease
+bin_R.29.5.5.	protein.degradation.serine protease	serine protease
+bin_R.29.5.7.	protein.degradation.metalloprotease	metalloprotease
+bin_R.29.5.9.	protein.degradation.AAA type	AAA type
+bin_R.29.5.11.	protein.degradation.ubiquitin	ubiquitin
+bin_R.29.5.11.1.	protein.degradation.ubiquitin.ubiquitin	ubiquitin
+bin_R.29.5.11.2.	protein.degradation.ubiquitin.E1	E1
+bin_R.29.5.11.3.	protein.degradation.ubiquitin.E2	E2
+bin_R.29.5.11.4.	protein.degradation.ubiquitin.E3	E3
+bin_R.29.5.11.4.1.	protein.degradation.ubiquitin.E3.HECT	HECT
+bin_R.29.5.11.4.2.	protein.degradation.ubiquitin.E3.RING	RING
+bin_R.29.5.11.4.3.	protein.degradation.ubiquitin.E3.SCF	SCF
+bin_R.29.5.11.4.3.1.	protein.degradation.ubiquitin.E3.SCF.SKP	SKP
+bin_R.29.5.11.4.3.2.	protein.degradation.ubiquitin.E3.SCF.FBOX	FBOX
+bin_R.29.5.11.4.3.3.	protein.degradation.ubiquitin.E3.SCF.cullin	cullin
+bin_R.29.5.11.4.3.4.	protein.degradation.ubiquitin.E3.SCF.RBX	RBX
+bin_R.29.5.11.4.4.	protein.degradation.ubiquitin.E3.APC	APC
+bin_R.29.5.11.4.5.	protein.degradation.ubiquitin.E3.BTB/POZ Cullin3	BTB/POZ Cullin3
+bin_R.29.5.11.4.5.1.	protein.degradation.ubiquitin.E3.BTB/POZ Cullin3.Cullin3	Cullin3
+bin_R.29.5.11.4.5.2.	protein.degradation.ubiquitin.E3.BTB/POZ Cullin3.BTB/POZ	BTB/POZ
+bin_R.29.5.11.4.6.	protein.degradation.ubiquitin.E3.DCX	DCX
+bin_R.29.5.11.4.99.	protein.degradation.ubiquitin.E3.unspecified	unspecified
+bin_R.29.5.11.5.	protein.degradation.ubiquitin.ubiquitin protease	ubiquitin protease
+bin_R.29.5.11.20.	protein.degradation.ubiquitin.proteasom	proteasom
+bin_R.29.5.15.	protein.degradation.inhibitors	proteasom
+bin_R.29.6.	protein.folding	folding
+bin_R.29.6.2.	protein.folding.chaperones and co-chaperones	chaperones and co-chaperones
+bin_R.29.6.2.3.	protein.folding.chaperones and co-chaperones.HSP70s	HSP70s
+bin_R.29.6.2.3.2.	protein.folding.chaperones and co-chaperones.HSP70s.co-chaperones	co-chaperones
+bin_R.29.6.2.3.2.2.	protein.folding.chaperones and co-chaperones.HSP70s.co-chaperones.J-domain	J-domain
+bin_R.29.7.	protein.glycosylation	glycosylation
+bin_R.29.7.3.	protein.glycosylation.mannosyl-oligosaccharide alpha-1,2-mannosidase	mannosyl-oligosaccharide alpha-1,2-mannosidase
+bin_R.29.7.4.	protein.glycosylation.UDP-glucose glycoprotein glucosyltransferase	UDP-glucose glycoprotein glucosyltransferase
+bin_R.29.7.5.	protein.glycosylation.alpha-1,3-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase (GnTI)	alpha-1,3-mannosyl-glycoprotein-beta-1,2-N-acetylglucosaminyltransferase(GnTI)
+bin_R.29.7.7.	protein.glycosylation.mannosyl-oligosaccharide 1,3-1,6-alpha-mannosidase (GMII)	mannosyl-oligosaccharide-1,3-1,6-alpha-mannosidase(GMII)
+bin_R.29.7.8.	protein.glycosylation.alpha-1,6-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase (GnTII)	alpha-1,6-mannosyl-glycoprotein-beta-1,2-N-acetylglucosaminyltransferase(GnTII)
+bin_R.29.7.9.	protein.glycosylation.beta-(1,2)-xylosyltransferase (XylT)	beta-1,2-xylosyltransferase(beta-1,2-XylT)
+bin_R.29.7.10.	protein.glycosylation.core alpha-(1,3)-fucosyltransferase (FucT)	alpha-1,3-fucosyltransferase(alpha-1,3-FucT)
+bin_R.29.7.12.	protein.glycosylation.beta-(1,3)-galactosyltransferase (GalT)	beta-1,3-galactosyltransferase(beta-1,3-GalT)
+bin_R.29.7.13.	protein.glycosylation.alpha-(1,4)-fucosyltransferase (FucT)	alpha-1,4-fucosyltransferase(alpha-1,4-FucT)
+bin_R.29.8.	protein.assembly and cofactor ligation	assembly and cofactor ligation
+bin_R.30.	signalling	signalling
+bin_R.30.1.	signalling.in sugar and nutrient physiology	sugar and nutrient physiology
+bin_R.30.1.1.	signalling.in sugar and nutrient physiology.misc	in sugar and nutrient physiology
+bin_R.30.1.2.	signalling.in sugar and nutrient physiology.pyruvate dehydrogenase kinase	pyruvate dehydrogenase kinase
+bin_R.30.2.	signalling.receptor kinases	receptor kinases
+bin_R.30.2.1.	signalling.receptor kinases.leucine rich repeat I	leucine rich repeat I
+bin_R.30.2.2.	signalling.receptor kinases.leucine rich repeat II	leucine rich repeat II
+bin_R.30.2.3.	signalling.receptor kinases.leucine rich repeat III	leucine rich repeat III
+bin_R.30.2.4.	signalling.receptor kinases.leucine rich repeat IV	leucine rich repeat IV
+bin_R.30.2.5.	signalling.receptor kinases.leucine rich repeat V	leucine rich repeat V
+bin_R.30.2.6.	signalling.receptor kinases.leucine rich repeat VI	leucine rich repeat VI
+bin_R.30.2.7.	signalling.receptor kinases.leucine rich repeat VII	leucine rich repeat VII
+bin_R.30.2.8.	signalling.receptor kinases.leucine rich repeat VIII	leucine rich repeat VIII-1
+bin_R.30.2.8.1.	signalling.receptor kinases.leucine rich repeat VIII.type 1	leucine rich repeat VIII-1
+bin_R.30.2.8.2.	signalling.receptor kinases.leucine rich repeat VIII.type 2	leucine rich repeat VIII-2
+bin_R.30.2.9.	signalling.receptor kinases.leucine rich repeat IX	leucine rich repeat IX
+bin_R.30.2.10.	signalling.receptor kinases.leucine rich repeat X	leucine rich repeat X
+bin_R.30.2.11.	signalling.receptor kinases.leucine rich repeat XI	leucine rich repeat XI
+bin_R.30.2.12.	signalling.receptor kinases.leucine rich repeat XII	leucine rich repeat XII
+bin_R.30.2.13.	signalling.receptor kinases.leucine rich repeat XIII	leucine rich repeat XIII
+bin_R.30.2.14.	signalling.receptor kinases.leucine rich repeat XIV	leucine rich repeat XIV
+bin_R.30.2.15.	signalling.receptor kinases.thaumatin like	thaumatin like
+bin_R.30.2.16.	signalling.receptor kinases.Catharanthus roseus-like RLK1	Catharanthus roseus-like RLK1
+bin_R.30.2.17.	signalling.receptor kinases.DUF 26	DUF 26
+bin_R.30.2.18.	signalling.receptor kinases.extensin	extensin
+bin_R.30.2.19.	signalling.receptor kinases.legume-lectin	legume-lectin
+bin_R.30.2.20.	signalling.receptor kinases.wheat LRK10 like	wheat LRK10 like
+bin_R.30.2.21.	signalling.receptor kinases.lysine motif	lysine motif
+bin_R.30.2.22.	signalling.receptor kinases.proline extensin like	proline extensin like
+bin_R.30.2.23.	signalling.receptor kinases.RKF3 like	RKF3 like
+bin_R.30.2.24.	signalling.receptor kinases.S-locus glycoprotein like	S-locus glycoprotein like
+bin_R.30.2.25.	signalling.receptor kinases.wall associated kinase	wall associated kinase
+bin_R.30.2.26.	signalling.receptor kinases.crinkly like	crinkly like
+bin_R.30.2.27.	signalling.receptor kinases.C-Lectin	C-Lectin
+bin_R.30.2.99.	signalling.receptor kinases.misc	misc
+bin_R.30.3.	signalling.calcium	calcium
+bin_R.30.4.	signalling.phosphinositides	phosphinositides
+bin_R.30.4.1.	signalling.phosphinositides.phosphatidylinositol-4-phosphate 5-kinase	phosphatidylinositol-4-phosphate 5-kinase
+bin_R.30.4.2.	signalling.phosphinositides.phosphatidylinositol 4-kinase	phosphatidylinositol 4-kinase
+bin_R.30.4.3.	signalling.phosphinositides.bis(5'-nucleosyl)-tetraphosphatase (assymetrical)	bis(5-nucleosyl)-tetraphosphatase
+bin_R.30.4.4.	signalling.phosphinositides.phosphoinositide phospholipase C	phosphoinositide phospholipase C
+bin_R.30.4.5.	signalling.phosphinositides.inositol-tetrakisphosphate 1-kinase	inositol-1,3,4-trisphosphate 5/6-kinase
+bin_R.30.5.	signalling.G-proteins	G-proteins
+bin_R.30.6.	signalling.MAP kinases	MAP kinases
+bin_R.30.7.	signalling.14-3-3 proteins	14-3-3 proteins
+bin_R.30.8.	signalling.misc	misc
+bin_R.30.9.	signalling.lipids	lipids
+bin_R.30.10.	signalling.phosphorelay	phosphorelay
+bin_R.30.11.	signalling.light	light
+bin_R.30.11.1.	signalling.light.COP9 signalosome	COP9 signalosome
+bin_R.30.12.	signalling.gravity	gravity
+bin_R.30.13.	signalling.stress	stress
+bin_R.30.99.	signalling.unspecified	unspecified
+bin_R.31.	cell	cell
+bin_R.31.1.	cell.organisation	organisation
+bin_R.31.2.	cell.division	division
+bin_R.31.2.5.	cell.division.plastid	plastid
+bin_R.31.3.	cell.cycle	cycle
+bin_R.31.3.1.	cell.cycle.peptidylprolyl isomerase	peptidylprolyl isomerase
+bin_R.31.4.	cell.vesicle transport	vesicle transport
+bin_R.31.5.	cell.cell death	cell death
+bin_R.31.5.1.	cell.cell death.plants	plants
+bin_R.31.99.	cell.unspecified	unspecified
+bin_R.32.	micro RNA, natural antisense etc	micro RNA
+bin_R.33.	development	development
+bin_R.33.1.	development.storage proteins	storage proteins
+bin_R.33.2.	development.late embryogenesis abundant	late embryogenesis abundant
+bin_R.33.3.	development.squamosa promoter binding like (SPL)	squamosa promoter binding like (SPL)
+bin_R.33.30.	development.multitarget	multitarget
+bin_R.33.30.1.	development.multitarget.target of rapamycin	target of rapamycin
+bin_R.33.99.	development.unspecified	unspecified
+bin_R.34.	transport	transport
+bin_R.34.1.	transport.p- and v-ATPases	p- and v-ATPases
+bin_R.34.1.1.	transport.p- and v-ATPases.H+-transporting two-sector ATPase	H+-transporting two-sector ATPase
+bin_R.34.1.1.1.	transport.p- and v-ATPases.H+-transporting two-sector ATPase.subunit B	subunit B
+bin_R.34.1.1.2.	transport.p- and v-ATPases.H+-transporting two-sector ATPase.subunit C	subunit C
+bin_R.34.1.1.3.	transport.p- and v-ATPases.H+-transporting two-sector ATPase.subunit D	subunit D
+bin_R.34.1.1.4.	transport.p- and v-ATPases.H+-transporting two-sector ATPase.subunit E	subunit E
+bin_R.34.1.1.6.	transport.p- and v-ATPases.H+-transporting two-sector ATPase.subunit H	subunit H
+bin_R.34.1.2.	transport.p- and v-ATPases.H+-exporting ATPase	H+-exporting ATPase
+bin_R.34.2.	transport.sugars	sugars
+bin_R.34.2.1.	transport.sugars.sucrose	sucrose
+bin_R.34.3.	transport.amino acids	amino acids
+bin_R.34.4.	transport.nitrate	nitrate
+bin_R.34.5.	transport.ammonium	ammonium
+bin_R.34.6.	transport.sulphate	sulphate
+bin_R.34.7.	transport.phosphate	phosphate
+bin_R.34.8.	transport.metabolite transporters at the envelope membrane	metabolite transporters at the envelope membrane
+bin_R.34.9.	transport.metabolite transporters at the mitochondrial membrane	metabolite transporters at the mitochondrial membrane
+bin_R.34.10.	transport.nucleotides	nucleotides
+bin_R.34.11.	transport.NDP-sugars at the ER	NDP-sugars at the ER
+bin_R.34.12.	transport.metal	metal
+bin_R.34.13.	transport.peptides and oligopeptides	peptides and oligopeptides
+bin_R.34.14.	transport.unspecified cations	unspecified cations
+bin_R.34.15.	transport.potassium	potassium
+bin_R.34.16.	transport.ABC transporters and multidrug resistance systems	ABC transporters and multidrug resistance systems
+bin_R.34.17.	transport.peroxisomes	peroxisomes
+bin_R.34.18.	transport.unspecified anions	unspecified anions
+bin_R.34.18.1.	transport.unspecified anions.arsenite-transporting ATPase	arsenite-transporting ATPase
+bin_R.34.19.	transport.major intrinsic proteins	Major Intrinsic Proteins
+bin_R.34.19.1.	transport.major intrinsic proteins.PIP	PIP
+bin_R.34.19.2.	transport.major intrinsic proteins.TIP	TIP
+bin_R.34.19.3.	transport.major intrinsic proteins.NIP	NIP
+bin_R.34.19.4.	transport.major intrinsic proteins.SIP	SIP
+bin_R.34.19.99.	transport.major intrinsic proteins.unspecified	unspecified
+bin_R.34.20.	transport.porins	porins
+bin_R.34.21.	transport.calcium	calcium
+bin_R.34.22.	transport.cyclic nucleotide or calcium regulated channels	cyclic nucleotide or calcium regulated channels
+bin_R.34.23.	transport.hormones	hormones
+bin_R.34.23.1.	transport.hormones.auxin	auxin
+bin_R.34.30.	transport.H+ transporting pyrophosphatase	H+ transporting pyrophosphatase
+bin_R.34.98.	transport.membrane system unknown	membrane system unknown
+bin_R.34.99.	transport.misc	misc
+bin_R.35.	not assigned	not assigned
+bin_R.35.1.	not assigned.no ontology	no ontology
+bin_R.35.1.2.	not assigned.no ontology.agenet domain-containing protein	agenet domain-containing protein
+bin_R.35.1.3.	not assigned.no ontology.armadillo/beta-catenin repeat family protein	armadillo/beta-catenin repeat family protein
+bin_R.35.1.5.	not assigned.no ontology.pentatricopeptide (PPR) repeat-containing protein	pentatricopeptide (PPR) repeat-containing protein
+bin_R.35.1.8.	not assigned.no ontology.BSD domain-containing protein	BSD domain-containing protein
+bin_R.35.1.9.	not assigned.no ontology.BTB/POZ domain-containing protein	BTB/POZ domain-containing protein
+bin_R.35.1.12.	not assigned.no ontology.pumilio/Puf RNA-binding domain-containing protein	pumilio/Puf RNA-binding domain-containing protein
+bin_R.35.1.14.	not assigned.no ontology.S RNA-binding domain-containing protein	S RNA-binding domain-containing protein
+bin_R.35.1.19.	not assigned.no ontology.C2 domain-containing protein	C2 domain-containing protein
+bin_R.35.1.20.	not assigned.no ontology.formin homology 2 domain-containing protein	formin homology 2 domain-containing protein
+bin_R.35.1.21.	not assigned.no ontology.epsin N-terminal homology (ENTH) domain-containing protein	epsin N-terminal homology (ENTH) domain-containing protein
+bin_R.35.1.22.	not assigned.no ontology.late embryogenesis abundant domain-containing protein	late embryogenesis abundant domain-containing protein
+bin_R.35.1.24.	not assigned.no ontology.paired amphipathic helix repeat-containing protein	paired amphipathic helix repeat-containing protein
+bin_R.35.1.26.	not assigned.no ontology.DC1 domain containing protein	DC1 domain containing protein
+bin_R.35.1.40.	not assigned.no ontology.glycine rich proteins	glycine rich proteins
+bin_R.35.1.41.	not assigned.no ontology.hydroxyproline rich proteins	hydroxyproline rich proteins
+bin_R.35.1.42.	not assigned.no ontology.proline rich family	proline rich family
+bin_R.35.3.	not assigned.disagreeing hits	disagreeing hits
+bin_R.35.20.	not assigned.no ontology assigned	no ontology assigned

@@ -52,3 +52,44 @@ bins.description[1] = "root"
 names(bins.description)[1] = "bin_R."
 
 
+
+### clean
+rm(mapman)
+rm(list=ls(pattern="tmp"))
+
+### add hand edited short names
+bins.description2 = bins.description
+load('shortnames')
+names(shortnames) = gsub("bin_", "bin_R.", names(shortnames), fixed = T)
+names(shortnames) = gsub("bin_R.R.", "bin_R.", names(shortnames), fixed = T)
+shortnames = shortnames[names(bins.description2)]
+
+tmp = cbind(names(bins.description2), bins.description2, shortnames)
+write.table(tmp, "shortnames_edit.txt", sep = "\t")
+#manual edit
+tmp = read.csv("shortnames_edit.txt", header = T, row.names = 1,sep = "\t", quote = "")
+shortnames = as.vector(tmp$shortnames)
+names(shortnames) = names(bins.description2)
+
+
+simpleCap <- function(x) {
+  s <- substr(x, 1,1)
+  s2 <- substr(x, 2,nchar(x))
+  paste(toupper(s), s2, sep="", collapse=" ")
+}
+
+shortnames2 = sapply(shortnames, simpleCap)
+
+f1 = function(x,y){
+  tmp = strsplit(x,split=".", fixed=T)[[1]]
+  tmp[length(tmp)] = y
+  tmp = paste(tmp, collapse=".")
+  return(tmp)
+}
+for(i in 1:length(bins.description2)){
+  bins.description2[i] = f1(bins.description[i], shortnames2[i])
+}
+
+
+
+
