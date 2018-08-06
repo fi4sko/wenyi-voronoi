@@ -24,7 +24,7 @@ mapman[,1] = paste("R.",mapman[,1], sep="")
 mapman[,1] = paste("bin_",mapman[,1], sep="")
 mapman = rbind(mapman[1,], mapman)
 mapman$NAME = as.vector(mapman$NAME)
-mapman[1,1] = "bin_R"
+mapman[1,1] = "bin_R."
 mapman[1,2] = "root"
 
 rm(list=ls(pattern="tmp"))
@@ -98,7 +98,6 @@ O1 = bins[lapply(O1,length) > 0]
 
 ### load the data
 
-tmp = sapply(dir("data_arabidopsis/"), function(x) read.csv(paste("data_arabidopsis/", x, sep = ""), header = T, row.names = 1, sep = "\t"), simplify = F)
 
 data1 = read.csv("data_arabidopsis/comparsion 1.csv", header = T, row.names = 1, sep = "\t")
 data2 = read.csv("data_arabidopsis/comparsion 2.csv", header = T, row.names = 1, sep = "\t")
@@ -116,11 +115,327 @@ Y[is.na(Y)] = 0
 Y[Y == Inf] = max(Y[Y != Inf]) + 1
 Y[Y == -Inf] = min(Y[Y != -Inf]) - 1
 
-
 ### filter the hierarchy
 
 O2 = lapply(O1, function(x) x[x %in% rownames(Y)]) 
 O2 = O2[unlist(lapply(O2, length)) > 0]
 
 
+### create vtm file
+f.vtm = function(Y,Ycol, O2,bins.description){
+  
+  #nodeId
+  nodeId = names(O2)
+  
+  #parentId
+  tmp = sapply(names(O2), function(x) max(gregexpr(pattern ='.',x, fixed=T)[[1]][1:(length(gregexpr(pattern ='.',x, fixed=T)[[1]]) - 1)]   ))
+  parentId = substr(names(O2), 1, tmp)
+  parentId[1] = "project"
+  parentId[parentId == ""] = "bin_R."
+  parentId[nodeId == parentId] = "bin_R."
+  
+  #names
+  namesId = bins.description[nodeId]
+  
+  #weights
+  weight = unlist(lapply(O2, function(x) sum(Y[x,1])))
+  weight = weight/max(weight)
+  
+  # input table
+  input_table = data.frame("nodeId" = nodeId, "parentId" = parentId, "name" = namesId, "weight" = weight)
+  
+  rm(list=ls(pattern="tmp"))
+  
+  ### renormalize
+  
+  Yn = apply(Y,2,function(x) (x/sum(x)) * 10000)
+  weightn =  unlist(lapply(O2, function(x) sum(Yn[x,Ycol])))
+  
+  
+  # identify the level
+  tmp = sapply(names(O2), function(x) length(gregexpr(pattern ='.',x, fixed=T)[[1]]))
+  tmp2 = sapply(names(O2), function(x) min(gregexpr(pattern ='.',x, fixed=T)[[1]]))
+  tmp[1] = 0
+  
+  #childId
+  childNr = sapply(names(O2), function(x) length(grep(x,names(O2), fixed=T)))
+  
+  # generate new leaves in the vtm according to the weight of the category
+  input_table2 = cbind(input_table, childNr)
+  input_table2[,4] = weightn
+  
+  # give the root the child number
+  input_table2["bin_R.",5] = nrow(input_table2)
+  
+  
+  # add new leaves according to the weight
+  
+  f.newleaves = function(x){
+    if(as.numeric(x[5]) == 1){
+      tmp = round(as.numeric(x[4]))
+      tmp = as.numeric(tmp)
+      x2 = as.vector(t(x))
+      if(tmp > 0){
+        tmp_mat = data.frame("nodeId"=paste(rep(x2[1],tmp), "synth", 1:tmp,".", sep=""),"parendId"=rep(x2[1],tmp),"name"=rep(x2[3],tmp),"weight"=rep(1,tmp),"childNr"=rep(1,tmp))
+      }else{
+        tmp_mat = NULL
+      } 
+    }else{
+      tmp_mat = NULL
+    }
+    return(tmp_mat)
+  }
+  
+  #f.newleaves(input_table2['bin_8.2.9.',])	      
+  
+  new_leaves = apply(input_table2,1,f.newleaves)
+  new_leaves = do.call(rbind, new_leaves)
+  rownames(new_leaves) = new_leaves[["nodeId"]]
+  colnames(new_leaves) = colnames(input_table2)
+  
+  
+  
+  input_table3 = rbind(input_table2, new_leaves)
+  input_table3 = input_table3[,1:4]
+  
+  
+  # reorder the table accordint to the hierarchy
+  
+  tmp0 = rownames(input_table3)
+  tmp0 = gsub("bin_", "", tmp0)
+  tmp0 = gsub("R", "", tmp0)
+  tmp0 = gsub("synth", "", tmp0)
+  tmp = sapply(tmp0, function(x)  strsplit(x, split=".",fixed=T)[[1]])
+  tmp2 = max(unlist(lapply(tmp, length)))
+  tmp3=c()
+  for(i in 1:tmp2){
+    tmp3 = cbind(tmp3, unlist(lapply(tmp, function(y) y[i])))
+  }
+  tmp3[is.na(tmp3)] = 0
+  tmp4 = matrix(as.numeric(tmp3), ncol=ncol(tmp3))
+  rownames(tmp4) = rownames(input_table3)
+  for(i in ncol(tmp4):1){
+    tmp4 = tmp4[order(tmp4[,i]),]
+  }
+  tmp4 = tmp4[c(nrow(tmp4), 1:(nrow(tmp4)-1)),]
+  
+  
+  input_table3 = input_table3[rownames(tmp4),]
+  
+  
+  
+  
+  # recalculate the weights
+  tmp = sapply(rownames(input_table3), function(x) sum( grepl(x,rownames(input_table3), fixed=T) & grepl("synth",rownames(input_table3), fixed=T))) 	
+  input_table3[["weight_approx"]] = tmp
+  input_table3[["weight_approx"]][1] = sum(grepl("synth",rownames(input_table3), fixed=T))
+  input_table3 = input_table3[as.vector(input_table3[["weight_approx"]]) > 0,]
+  # write the result
+  
+  write.table(input_table3, 'vtm.txt', sep=";", row.names=F)
+  
+  # run the VTM
+  system(paste("java -jar Voronoi/Voronoi-Treemap-Library/build/libs/JVoroTreemap.jar", paste(getwd(), '/vtm.txt', sep=""), sep=" "))
+  
+  
+  # retrive the result 
+  vtm = read.table('vtm-finished.txt', header=T, sep=";")
+  
+  #remove the file
+  system(paste("rm", paste(getwd(), "/vtm-finished.txt", sep="")))
+  
+  # fill the names and bin info
+  vtm = vtm[is.na(vtm[["nodeId"]]) == F & vtm[["nodeId"]] != 0,]
+  vtm[["nodeId"]] = as.vector(input_table3[["nodeId"]])[as.vector(vtm[["nodeId"]])]
+  vtm[["parentID"]] = as.vector(input_table3[as.vector(vtm[["nodeId"]]), "parentId"])
+  vtm[["name"]] = as.vector(input_table3[as.vector(vtm[["nodeId"]]), "name"])
+  vtm[["weight"]] = as.vector(input_table3[as.vector(vtm[["nodeId"]]), "weight"])
+  
+  # add the ratio between the number of protein and the sum of intensities
+  tmp = unlist(lapply(O2, length))
+  tmp2 = length(unique(unlist(O2)))
+  tmp3 = as.vector(vtm[["weight"]]) / (tmp[as.vector(vtm[["nodeId"]])] * mean(Yn))
+  vtm[["intensity"]] = tmp3
+  
+  return(vtm)
+}
+
+bins.description0 = bins.description
+bins.description = bins.description2
+Ynames = rownames(Y)
+
+
+f.vtm.nonweight = function(Ynames,O2,bins.description){
+  O2 = O2[lapply(O2, length) > 0]
+  names(O2)[1] = "bin_R."
+  
+  #nodeId
+  nodeId = names(O2)
+  
+  #parentId
+  tmp = sapply(names(O2), function(x) max(gregexpr(pattern ='.',x, fixed=T)[[1]][1:(length(gregexpr(pattern ='.',x, fixed=T)[[1]]) - 1)]   ))
+  parentId = substr(names(O2), 1, tmp)
+  parentId[1] = "project"
+  parentId[parentId == ""] = "bin_R."
+  parentId[nodeId == parentId] = "bin_R."
+  
+  #names
+  namesId = bins.description[nodeId]
+  
+  #weights
+  weight = unlist(lapply(O2, length))
+  weight = weight/max(weight)
+  
+  # input table
+  input_table = data.frame("nodeId" = nodeId, "parentId" = parentId, "name" = namesId, "weight" = weight)
+  
+  rm(list=ls(pattern="tmp"))
+  
+  ### renormalize
+  
+  Yn = Y#apply(Y,2,function(x) (x/sum(x)) * 10000)
+  weightn =  unlist(lapply(O2, length))
+  
+  
+  # identify the level
+  tmp = sapply(names(O2), function(x) length(gregexpr(pattern ='.',x, fixed=T)[[1]]))
+  tmp2 = sapply(names(O2), function(x) min(gregexpr(pattern ='.',x, fixed=T)[[1]]))
+  tmp[1] = 0
+  
+  #childId
+  childNr = sapply(names(O2), function(x) length(grep(x,names(O2), fixed=T)))
+  
+  # generate new leaves in the vtm according to the weight of the category
+  input_table2 = cbind(input_table, childNr)
+  input_table2[,4] = weightn
+  
+  # give the root the child number
+  input_table2["bin_R.",5] = nrow(input_table2)
+  
+  
+  # add new leaves according to the weight
+  
+  f.newleaves = function(x){
+    if(as.numeric(x[5]) == 1){
+      tmp = round(as.numeric(x[4]))
+      tmp = as.numeric(tmp)
+      x2 = as.vector(t(x))
+      if(tmp > 0){
+        tmp_mat = data.frame("nodeId"=paste(rep(x2[1],tmp), "synth", 1:tmp,".", sep=""),"parendId"=rep(x2[1],tmp),"name"=rep(x2[3],tmp),"weight"=rep(1,tmp),"childNr"=rep(1,tmp))
+      }else{
+        tmp_mat = NULL
+      } 
+    }else{
+      tmp_mat = NULL
+    }
+    return(tmp_mat)
+  }
+  
+  #f.newleaves(input_table2['bin_8.2.9.',])	      
+  
+  new_leaves = apply(input_table2,1,f.newleaves)
+  new_leaves = do.call(rbind, new_leaves)
+  rownames(new_leaves) = new_leaves[["nodeId"]]
+  colnames(new_leaves) = colnames(input_table2)
+  
+  
+  
+  input_table3 = rbind(input_table2, new_leaves)
+  input_table3 = input_table3[,1:4]
+  
+  
+  # reorder the table according to the hierarchy
+  
+  tmp0 = rownames(input_table3)
+  tmp0 = gsub("bin_R.", "", tmp0)
+  tmp0 = gsub("R", "", tmp0)
+  tmp0 = gsub("synth", "", tmp0)
+  tmp = sapply(tmp0, function(x)  strsplit(x, split=".",fixed=T)[[1]])
+  tmp2 = max(unlist(lapply(tmp, length)))
+  tmp3=c()
+  for(i in 1:tmp2){
+    tmp3 = cbind(tmp3, unlist(lapply(tmp, function(y) y[i])))
+  }
+  tmp3[is.na(tmp3)] = 0
+  tmp4 = matrix(as.numeric(tmp3), ncol=ncol(tmp3))
+  rownames(tmp4) = rownames(input_table3)
+  for(i in ncol(tmp4):1){
+    tmp4 = tmp4[order(tmp4[,i]),]
+  }
+  #tmp4 = tmp4[c(nrow(tmp4), 1:(nrow(tmp4)-1)),]
+  
+  
+  input_table3 = input_table3[rownames(tmp4),]
+  
+  
+  
+  
+  # recalculate the weights
+  tmp = sapply(rownames(input_table3), function(x) sum( grepl(x,rownames(input_table3), fixed=T) & grepl("synth",rownames(input_table3), fixed=T))) 	
+  input_table3[["weight_approx"]] = tmp
+  input_table3[["weight_approx"]][1] = sum(grepl("synth",rownames(input_table3), fixed=T))
+  input_table3 = input_table3[as.vector(input_table3[["weight_approx"]]) > 0,]
+  # write the result
+  
+  write.table(input_table3, 'vtm.txt', sep=";", row.names=F)
+  
+  # run the VTM
+  system(paste("java -jar Voronoi/Voronoi-Treemap-Library/build/libs/JVoroTreemap.jar", paste(getwd(), '/vtm.txt', sep=""), sep=" "))
+  
+  
+  # retrive the result 
+  vtm = read.table('vtm-finished.txt', header=T, sep=";")
+  
+  #remove the file
+  system(paste("rm", paste(getwd(), "/vtm-finished.txt", sep="")))
+  
+  # fill the names and bin info
+  vtm = vtm[is.na(vtm[["nodeId"]]) == F & vtm[["nodeId"]] != 0,]
+  vtm[["nodeId"]] = as.vector(input_table3[["nodeId"]])[as.vector(vtm[["nodeId"]])]
+  vtm[["parentID"]] = as.vector(input_table3[as.vector(vtm[["nodeId"]]), "parentId"])
+  vtm[["name"]] = as.vector(input_table3[as.vector(vtm[["nodeId"]]), "name"])
+  vtm[["weight"]] = as.vector(input_table3[as.vector(vtm[["nodeId"]]), "weight"])
+  
+  # add the ratio between the number of protein and the sum of intensities
+  tmp = unlist(lapply(O2, function(x) sum(x %in% Ynames)))
+  tmp2 = unlist(lapply(O2, length))
+  tmp3 = tmp[vtm[["nodeId"]]] / tmp2[vtm[["nodeId"]]] 
+  tmp3[is.na(tmp3)] = 0
+  vtm[["intensity"]] = tmp3
+  
+  return(vtm)
+}
+
+
+### clean
+
+rm(list=setdiff(ls(), c("Y", "O2","O1", "bins.description2", "f.vtm", "f.vtm.nonweight")))
+
+
+### run for all
+
+
+vtm = f.vtm.nonweight(rownames(Y),O1,bins.description2)
+
+## reorder the vtm
+rownames(vtm) = vtm[["nodeId"]]
+tmp0 = rownames(vtm)
+tmp0 = gsub("bin_", "", tmp0)
+tmp0 = gsub("R", "", tmp0)
+tmp0 = gsub("synth", "", tmp0)
+tmp = sapply(tmp0, function(x)  strsplit(x, split=".",fixed=T)[[1]])
+tmp2 = max(unlist(lapply(tmp, length)))
+tmp3=c()
+for(i in 1:tmp2){
+  tmp3 = cbind(tmp3, unlist(lapply(tmp, function(y) y[i])))
+}
+tmp3[is.na(tmp3)] = 0
+tmp4 = matrix(as.numeric(tmp3), ncol=ncol(tmp3))
+rownames(tmp4) = rownames(vtm)
+for(i in ncol(tmp4):1){
+  tmp4 = tmp4[order(tmp4[,i]),]
+}
+tmp4 = tmp4[c(nrow(tmp4), 1:(nrow(tmp4)-1)),]
+
+vtm = vtm[rownames(tmp4),]
 
